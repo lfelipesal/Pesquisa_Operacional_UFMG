@@ -27,11 +27,21 @@ model = gp.Model("FuncaoObjetivo")
 model = gp.Model("Modelo_Com_Funcao_Objetivo")
 
 # Variáveis do problema
-x = model.addVars(num_ativos, vtype=GRB.CONTINUOUS, name="w")
-w = model.addVars(num_ativos, vtype=GRB.BINARY, name="x")
+w = model.addVars(num_ativos, vtype=GRB.CONTINUOUS, name="w")
+x = model.addVars(num_ativos, vtype=GRB.BINARY, name="x")
 
 # Objetivo: Z = sum(mu[i] * w[i] - C[i] * x[i] for i in range(n))
-model.setObjective(gp.quicksum(mu[i] * w[i] for i in range(num_ativos)) - gp.quicksum(C[i] * x[i] for i in range(num_ativos)), GRB.MAXIMIZE)
+model.setObjective(
+    gp.quicksum(
+        mu[i] * w[i]
+        for i in range(num_ativos)
+    )
+    - 
+    gp.quicksum(
+        C[i] * x[i]
+        for i in range(num_ativos)
+    ),
+    GRB.MAXIMIZE)
 
 # Restrições
 model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) >= 4, name="restricao_soma_xi")
