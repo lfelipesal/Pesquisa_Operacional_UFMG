@@ -64,10 +64,18 @@ model.addConstrs((w[i] >= W_min*x[i] for i in range(num_ativos)), name="Alocacao
 model.addConstr(gp.quicksum(desvio_padrao[i]*x[i] for i in range(num_ativos)) <= Volat_max, name="Volatilidade_maxima") # 7- Volatilidade Máxima dos investidores    
 
 
-# Resolver o modelo
-model.optimize()
-if model.Status == GRB.OPTIMAL:
-    for v in model.getVars():
-        print(f"{v.VarName} {v.X:g}")
-else:
-    print("A otimização não foi bem-sucedida.")
+try:
+    # Defina e resolva o modelo
+    model.optimize()
+
+    # Verifique se o modelo foi otimizado com sucesso
+    if model.status == gp.GRB.OPTIMAL:
+        for v in model.getVars():
+            print(f"{v.VarName} {v.X:g}")
+    else:
+        print("A otimização não foi bem-sucedida.")
+
+except gp.GurobiError as e:
+    print(f"Erro do Gurobi: {e.message}")
+except Exception as e:
+    print(f"Ocorreu um erro: {str(e)}")
