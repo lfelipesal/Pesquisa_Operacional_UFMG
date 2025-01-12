@@ -58,17 +58,16 @@ model.setObjective(
 model.addConstr(gp.quicksum(w[i] for i in range(num_ativos)) <= 1, name="Total_Investido")                              # 1- Orçamento Total por Investidor
 model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) >= 4, name="restricao_soma_xi")                            # 2- Número Mínimo de Investimentos
 model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) <= N_maximo, name="restricao_Max_ativos")                  # 3- Número Máximo de Ativos por Investidor
-model.addConstr((w[i] <= limite_liquidez[i]*x[i] for i in range(num_ativos)), name="limite_liquidez")                   # 4- Limites de Alocação por Ativo
+model.addConstrs((w[i] <= limite_liquidez[i]*x[i] for i in range(num_ativos)), name="limite_liquidez")                   # 4- Limites de Alocação por Ativo
 model.addConstr(gp.quicksum(C[i]*x[i] for i in range(num_ativos)) <= B_max, name="Custos_maximo")                       # 5- Custos de Transação
-model.addConstr((w[i] >= W_min*x[i] for i in range(num_ativos)), name="Alocacao_minima")                                # 6- Alocação Mínima por Ativo Selecionado
+model.addConstrs((w[i] >= W_min*x[i] for i in range(num_ativos)), name="Alocacao_minima")                                # 6- Alocação Mínima por Ativo Selecionado
 model.addConstr(gp.quicksum(desvio_padrao[i]*x[i] for i in range(num_ativos)) <= Volat_max, name="Volatilidade_maxima") # 7- Volatilidade Máxima dos investidores    
 
 
 # Resolver o modelo
 model.optimize()
-
-for v in model.getVars():
-    print(f"{v.VarName} {v.X:g}")
-
-print(f"Obj: {model.ObjVal:g}")
-
+if model.Status == GRB.OPTIMAL:
+    for v in model.getVars():
+        print(f"{v.VarName} {v.X:g}")
+else:
+    print("A otimização não foi bem-sucedida.")
