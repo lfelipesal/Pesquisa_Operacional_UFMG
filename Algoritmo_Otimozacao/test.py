@@ -1,1 +1,0 @@
-teste para gravar o algoritmo aqui

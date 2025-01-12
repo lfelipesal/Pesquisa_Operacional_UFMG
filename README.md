@@ -69,9 +69,74 @@ Abaixo segue informações das ferramentas utilizas no trabalho:
 
 ⛔Acesso aos relatórios finais do projeto ainda em desenvolvimento⛔
 
+
 ## 🛠️ Execução do algoritmo
 
-⛔Execução do trabalho ainda está em desenvolvimento⛔
+Siga os passos abaixo para configurar o ambiente e executar o algoritmo:
+
+#### 1. Instalar Python
+- Certifique-se de que o Python **3.11 ou superior** está instalado em sua máquina.
+- Baixe a versão mais recente em [python.org](https://www.python.org/downloads/).
+
+#### 2. Instalar o Gurobi
+- Baixe e instale o Gurobi de acordo com o sistema operacional da sua máquina.
+- Solicite uma licença acadêmica gratuita em: [Gurobi Academic License](https://www.gurobi.com/features/academic-named-user-license/).
+- Após a instalação, ative a licença conforme as instruções do Gurobi.
+
+#### 3. Acessar a pasta do projeto
+- Navegue até a pasta `simulacao` no terminal ou prompt de comando.
+
+#### 4. Criar um Ambiente Virtual
+- Execute o comando abaixo para criar um ambiente virtual que irá isolar as dependências do seu projeto:
+  ```
+    python -m venv venv
+  ```
+
+#### 5. Ativar o Ambiente Virtual
+- Ative o ambiente virtual:
+  - **Windows:**
+    ```
+    venv\Scripts\activate
+    ```
+  - **Linux/macOS:**
+    ```
+    source venv/bin/activate
+    ```
+
+Após ativar o ambiente, você verá o nome do ambiente (`venv`) na linha de comando, indicando que ele está ativo.
+
+#### 6. Instalar as Dependências
+- Com o ambiente virtual ativado, instale todas as bibliotecas necessárias executando o seguinte comando:
+  ```
+    python -m pip install -r requirements.txt
+  ```
+
+O arquivo `requirements.txt` contém todas as dependências do projeto, incluindo o Gurobi e outras bibliotecas necessárias.
+
+#### 7. Executar o Algoritmo
+- Agora, para rodar o algoritmo, execute o arquivo `main.py` localizado em `simulacao/src`:
+```
+  python simulacao/src/main.py
+```
+
+## 🛠️ Execução do algoritmo
+
+Configuração do Ambiente:
+  1. Instalar Python(Versão 3.11 ou acima);
+  2. Instalar gurobi e adquirir licença de estudante(https://www.gurobi.com/features/academic-named-user-license/
+  )
+  3. Acesse a pasta simulacao:
+  4. Execute:
+    ```python -m venv venv```
+    Será criado um ambiente virtual
+  5. Ative o ambiente virtual com o comando:
+    ```venv\Scripts\activate```
+  6. Execute o comando:
+    ```python -m pip install -r requirements.txt```
+    O arquivo requirements.txt contém todas as bibliotecas necessárias para execução do algoritmo.
+  7. Agora execute o arquivo main.py dentro de simulacao/src.
+    ```python main.py```
+
 
 ## 📚 Mais informações 
 
