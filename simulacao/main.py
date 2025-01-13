@@ -1,3 +1,4 @@
+from random import randint
 from typing import List
 import gurobipy as gp
 from gurobipy import GRB
@@ -13,10 +14,13 @@ def gera_simulacao(
     spread_fixo: float = 0.005,
     taxa_operacional: float = 5,
     num_max_ativos: int = 10,
+    num_min_ativos: int = 4,
     B_max: int = 3,
     W_min: float = 0.02,
     volat_max: float = 0.05,
-    limite_liquidez: float = 0.01
+    limite_liquidez: float = 0.01,
+    alocacao_min_por_ativo: int = 5,
+    alocacao_max_por_ativo: int = 200,
 ):
     num_ativos = len(ativos)
     desvio_padrao = []   # Defininado o desvio padrão individual (Volatilidade) de cada ativo
@@ -29,7 +33,8 @@ def gera_simulacao(
         desvio_padrao.append(ativo.desvio_padrao)
         limite_liquidez.append(0.01 * ativo.volume_medio)
         mu.append(ativo.retorno)
-        C.append( custo_fixo + (spread_fixo * ativo.valor) + taxa_operacional)
+        # C.append( custo_fixo + (spread_fixo * ativo.valor) + taxa_operacional)
+        C.append(randint(0, 10))
 
     # Função objetivo: Max Zk = sum(μ[i]*w[i,k]) - sum(C[i]*x[i,k]) para todos os k
     # μ[i]: Retorno esperado do ativo i.
@@ -55,16 +60,18 @@ def gera_simulacao(
         GRB.MAXIMIZE)
 
     # Restrições
-    model.addConstr(gp.quicksum(w[i]*ativos[i].valor for i in range(num_ativos)) <= total_investido, name="Total_Investido") # 1- Orçamento Total por Investidor
-    model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) >= 4, name="restricao_soma_xi")                             # 2- Número Mínimo de Investimentos
-    model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) <= num_max_ativos, name="restricao_Max_ativos")             # 3- Número Máximo de Ativos por Investidor
-    # model.addConstrs((w[i] <= limite_liquidez[i]*x[i] for i in range(num_ativos)), name="limite_liquidez")                  # 4- Limites de Alocação por Ativo
-    model.addConstr(gp.quicksum(C[i]*x[i] for i in range(num_ativos)) <= B_max, name="Custos_maximo")                        # 5- Custos de Transação
-    # model.addConstrs((w[i] >= W_min*x[i] for i in range(num_ativos)), name="Alocacao_minima")                              # 6- Alocação Mínima por Ativo Selecionado
-    model.addConstr(gp.quicksum(desvio_padrao[i]*x[i] for i in range(num_ativos)) <= volat_max, name="Volatilidade_maxima")  # 7- Volatilidade Máxima dos investidores    
+    model.addConstr(gp.quicksum(w[i]*ativos[i].valor for i in range(num_ativos)) <= total_investido, name="Total_Investido")  # 1- Orçamento Total Investido
+    model.addConstrs((w[i] >= alocacao_min_por_ativo*x[i] for i in range(num_ativos)), name="Alocacao_Min_Ativo_Selecionado") # 2- Alocação minima do Ativo Se Selecionado
+    model.addConstrs((w[i] <= alocacao_max_por_ativo*x[i] for i in range(num_ativos)), name="Alocacao_Max_Ativo_Selecionado") # 3- Alocação máxima do Ativo Se Selecionado
+    model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) >= num_min_ativos, name="Numero_Min_Ativos_Diferentes")      # 4- Número Mínimo de Investimentos
+    model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) <= num_max_ativos, name="Numero_Max_Ativos_Diferentes")      # 5- Número Máximo de Ativos por Investidor
+    model.addConstr(gp.quicksum(C[i]*x[i] for i in range(num_ativos)) <= B_max, name="Custos_Max_Total_Transacao")            # 6- Custos de Transação
+    model.addConstr(gp.quicksum(desvio_padrao[i]*x[i] for i in range(num_ativos)) <= volat_max, name="Volatilidade_Max")      # 7- Volatilidade Máxima dos investidores
 
     try:
         # Defina e resolva o modelo
+        model.update()
+        print(model.display())
         model.optimize()
 
         # Verifique se o modelo foi otimizado com sucesso
@@ -82,15 +89,28 @@ def gera_simulacao(
 
 
 ativos: List[Ativo] = busca_dados_financeiros()
-total_investido = 100.000 # Total investido
-custo_fixo = 10           # Custo fixo por transação
-spread_fixo = 0.005       # Spread fixo de 0.5%
-taxa_operacional = 5      # Custo diário fixo
-num_max_ativos = 10       # Número máximo de ativos
-B_max = 3                 # Custo maximo gasto em transação
-W_min = 0.02              # Alocação mínima de 2% em cada ativo
-volat_max =  0.05         # Definindo a volatilidade máxima dos ativos sendo 5%
-limite_liquidez = 0.01    # Limite de liquidez aceita
+total_investido = 10000      # Total investido
+custo_fixo = 2               # Custo fixo por transação
+spread_fixo = 0.005          # Spread fixo de 0.5%
+taxa_operacional = 5         # Custo diário fixo
+num_max_ativos = 6           # Número máximo de ativos
+num_min_ativos = 4           # Número min de ativos
+B_max = 100                  # Custo maximo gasto em transação
+W_min = 0.02                 # Alocação mínima de 2% em cada ativo
+volat_max =  0.06            # Definindo a volatilidade máxima dos ativos sendo 5%
+limite_liquidez = 0.01       # Limite de liquidez aceita
+alocacao_min_por_ativo = 5   # Alocacao minima por ativo
+alocacao_max_por_ativo = 200 # Alocacao max por ativo
+
+ativos = [
+    Ativo(10, 5, 0.1, 0.01),
+    Ativo(20, 1, 0.1, 0.01),
+    Ativo(30, 2, 0.1, 0.01),
+    Ativo(40, 3, 0.1, 0.01),
+    Ativo(50, 4, 0.1, 0.01),
+    Ativo(40, 3, 0.1, 0.01),
+    Ativo(50, 4, 0.1, 0.01),
+]
 
 gera_simulacao(
     ativos,
@@ -99,7 +119,11 @@ gera_simulacao(
     spread_fixo,
     taxa_operacional,
     num_max_ativos,
+    num_min_ativos,
     B_max,
     W_min,
-    volat_max
+    volat_max,
+    limite_liquidez,
+    alocacao_min_por_ativo,
+    alocacao_max_por_ativo
 )
