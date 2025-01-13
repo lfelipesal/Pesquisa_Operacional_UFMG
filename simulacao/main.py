@@ -71,13 +71,14 @@ def gera_simulacao(
     try:
         # Defina e resolva o modelo
         model.update()
-        print(model.display())
+        #print(model.display())
         model.optimize()
 
         # Verifique se o modelo foi otimizado com sucesso
         if model.status == gp.GRB.OPTIMAL:
-            for v in model.getVars():
-                print(f"{v.VarName} {v.X:g}")
+            return model.getVars()
+            #for v in model.getVars():
+                #print(f"{v.VarName} {v.X:g}")
         else:
             print("A otimização não foi bem-sucedida.")
 
