@@ -16,9 +16,7 @@ def gera_simulacao(
     num_max_ativos: int = 10,
     num_min_ativos: int = 4,
     B_max: int = 3,
-    W_min: float = 0.02,
     volat_max: float = 0.05,
-    limite_liquidez: float = 0.01,
     alocacao_min_por_ativo: int = 5,
     alocacao_max_por_ativo: int = 200,
 ):
@@ -33,8 +31,8 @@ def gera_simulacao(
         desvio_padrao.append(ativo.desvio_padrao)
         limite_liquidez.append(0.01 * ativo.volume_medio)
         mu.append(ativo.retorno)
-        # C.append( custo_fixo + (spread_fixo * ativo.valor) + taxa_operacional)
-        C.append(randint(0, 10))
+        C.append( custo_fixo + (spread_fixo * ativo.valor) + taxa_operacional)
+        #C.append(randint(0, 10))
 
     # Função objetivo: Max Zk = sum(μ[i]*w[i,k]) - sum(C[i]*x[i,k]) para todos os k
     # μ[i]: Retorno esperado do ativo i.
@@ -76,6 +74,7 @@ def gera_simulacao(
 
         # Verifique se o modelo foi otimizado com sucesso
         if model.status == gp.GRB.OPTIMAL:
+            #return model.getVars()
             for v in model.getVars():
                 print(f"{v.VarName} {v.X:g}")
         else:
@@ -89,28 +88,24 @@ def gera_simulacao(
 
 
 ativos: List[Ativo] = busca_dados_financeiros()
-total_investido = 10000      # Total investido
-custo_fixo = 2               # Custo fixo por transação
-spread_fixo = 0.005          # Spread fixo de 0.5%
-taxa_operacional = 5         # Custo diário fixo
-num_max_ativos = 6           # Número máximo de ativos
-num_min_ativos = 4           # Número min de ativos
-B_max = 100                  # Custo maximo gasto em transação
-W_min = 0.02                 # Alocação mínima de 2% em cada ativo
-volat_max =  0.06            # Definindo a volatilidade máxima dos ativos sendo 5%
-limite_liquidez = 0.01       # Limite de liquidez aceita
-alocacao_min_por_ativo = 5   # Alocacao minima por ativo
-alocacao_max_por_ativo = 200 # Alocacao max por ativo
+total_investido = 200000       # Total investido
+custo_fixo = 5               # Custo fixo por transação
+spread_fixo = 0.05              # Spread fixo de 0.5%
+taxa_operacional = 2         # Custo diário fixo
+num_max_ativos = 40           # Número máximo de ativos
+num_min_ativos = 20           # Número min de ativos
+B_max = 150                   # Custo maximo gasto em transação
+volat_max =  0.5            # Definindo a volatilidade máxima dos ativos sendo 5%
+alocacao_min_por_ativo = 80   # Alocacao minima por ativo
+alocacao_max_por_ativo = 180 # Alocacao max por ativo
 
-ativos = [
-    Ativo(10, 5, 0.1, 0.01),
-    Ativo(20, 1, 0.1, 0.01),
-    Ativo(30, 2, 0.1, 0.01),
-    Ativo(40, 3, 0.1, 0.01),
-    Ativo(50, 4, 0.1, 0.01),
-    Ativo(40, 3, 0.1, 0.01),
-    Ativo(50, 4, 0.1, 0.01),
-]
+# ativos = [
+#     Ativo(20, 5, 0.1, 0.01),
+#     Ativo(20, 1, 0.1, 0.01),
+#     Ativo(30, 2, 0.1, 0.01),
+#     Ativo(40, 2, 0.1, 0.01),
+#     Ativo(50, 4, 0.1, 0.01),
+# ]
 
 gera_simulacao(
     ativos,
@@ -121,9 +116,7 @@ gera_simulacao(
     num_max_ativos,
     num_min_ativos,
     B_max,
-    W_min,
     volat_max,
-    limite_liquidez,
     alocacao_min_por_ativo,
     alocacao_max_por_ativo
 )
