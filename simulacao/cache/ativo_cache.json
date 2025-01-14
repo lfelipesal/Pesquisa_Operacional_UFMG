@@ -1,2480 +1,2501 @@
 [
     {
         "ticker": "HAPV3.SA",
-        "valor": 2.1600000858306885,
-        "retorno": 0.05560324999999999,
-        "volume_medio": 106735938.8888889,
-        "desvio_padrao": 0.051076235160878294
+        "valor": 2.190000057220459,
+        "retorno": 0.05560325,
+        "volume_medio": 0.06673517801980247,
+        "desvio_padrao": 0.4446436721865169
     },
     {
         "ticker": "BBDC4.SA",
-        "valor": 11.220000267028809,
-        "retorno": 0.6156261666666666,
-        "volume_medio": 36976838.88888889,
-        "desvio_padrao": 0.01645271227006094
+        "valor": 11.449999809265137,
+        "retorno": 0.6154032222222221,
+        "volume_medio": 0.30118253625002844,
+        "desvio_padrao": 0.2730911843803981
     },
     {
         "ticker": "PETR4.SA",
-        "valor": 37.06999969482422,
-        "retorno": 2.6278092941176467,
-        "volume_medio": 31789655.555555556,
-        "desvio_padrao": 0.011397996369184165
+        "valor": 36.84000015258789,
+        "retorno": 2.6357175882352943,
+        "volume_medio": 0.27079441600978416,
+        "desvio_padrao": 0.24919317614312508
     },
     {
         "ticker": "B3SA3.SA",
-        "valor": 9.789999961853027,
-        "retorno": 0.2695142777777778,
-        "volume_medio": 55293938.88888889,
-        "desvio_padrao": 0.01643728053481731
+        "valor": 9.84000015258789,
+        "retorno": 0.271079,
+        "volume_medio": 0.19435062150311,
+        "desvio_padrao": 0.27787724148792525
     },
     {
         "ticker": "ABEV3.SA",
-        "valor": 11.239999771118164,
-        "retorno": 0.4680228333333333,
-        "volume_medio": 36723183.333333336,
-        "desvio_padrao": 0.015081928055523441
+        "valor": 11.180000305175781,
+        "retorno": 0.502208611111111,
+        "volume_medio": 0.2572448919852468,
+        "desvio_padrao": 0.20668375480492415
     },
     {
         "ticker": "VALE3.SA",
-        "valor": 51.5099983215332,
-        "retorno": 2.903871764705882,
-        "volume_medio": 23954272.222222224,
-        "desvio_padrao": 0.010169360567780106
+        "valor": 51.869998931884766,
+        "retorno": 2.9452322352941174,
+        "volume_medio": 0.19804783430162143,
+        "desvio_padrao": 0.23068442219540045
     },
     {
         "ticker": "ITSA4.SA",
-        "valor": 8.720000267028809,
-        "retorno": 0.3240122777777778,
-        "volume_medio": 35565050.0,
-        "desvio_padrao": 0.016989467035639347
+        "valor": 8.710000038146973,
+        "retorno": 0.33403305555555557,
+        "volume_medio": 0.4172285989990988,
+        "desvio_padrao": 0.18833713731187393
     },
     {
         "ticker": "COGN3.SA",
         "valor": 1.1399999856948853,
         "retorno": 0.13964999824762345,
-        "volume_medio": 38606038.88888889,
-        "desvio_padrao": 0.03748617896911773
+        "volume_medio": 0.1820270846172006,
+        "desvio_padrao": 0.5707295320565144
     },
     {
         "ticker": "CRFB3.SA",
-        "valor": 5.25,
+        "valor": 5.269999980926514,
         "retorno": 0.38056100000000004,
-        "volume_medio": 15416505.555555556,
-        "desvio_padrao": 0.05406822351887614
+        "volume_medio": 0.3831250095776144,
+        "desvio_padrao": 0.4848755528846766
     },
     {
         "ticker": "ITUB4.SA",
-        "valor": 30.860000610351562,
-        "retorno": 0.93064825,
-        "volume_medio": 28942527.777777776,
-        "desvio_padrao": 0.0174042369274889
+        "valor": 30.90999984741211,
+        "retorno": 0.9438155625,
+        "volume_medio": 0.38515168842277514,
+        "desvio_padrao": 0.1904054735778668
     },
     {
         "ticker": "CVCB3.SA",
-        "valor": 1.6399999856948853,
-        "retorno": 0.20089999824762345,
-        "volume_medio": 28063444.444444444,
-        "desvio_padrao": 0.058368841634521725
+        "valor": 1.649999976158142,
+        "retorno": 0.2021249970793724,
+        "volume_medio": 0.3432960674343194,
+        "desvio_padrao": 0.6593835915845278
     },
     {
         "ticker": "MGLU3.SA",
-        "valor": 5.809999942779541,
+        "valor": 5.880000114440918,
         "retorno": 0.18602475,
-        "volume_medio": 27513133.333333332,
-        "desvio_padrao": 0.04293305449821186
+        "volume_medio": 0.37482316453859543,
+        "desvio_padrao": 0.6110303769686871
     },
     {
         "ticker": "AZUL4.SA",
-        "valor": 4.110000133514404,
+        "valor": 4.139999866485596,
         "retorno": 0,
-        "volume_medio": 20802277.777777776,
-        "desvio_padrao": 0.05719459861088119
+        "volume_medio": 0.3753527997816847,
+        "desvio_padrao": 0.7569470780831669
     },
     {
         "ticker": "GGBR4.SA",
-        "valor": 16.989999771118164,
+        "valor": 17.0,
         "retorno": 0.51721156,
-        "volume_medio": 14585388.888888888,
-        "desvio_padrao": 0.019385828053962325
+        "volume_medio": 0.25703113325031135,
+        "desvio_padrao": 0.28011228803660815
     },
     {
         "ticker": "CSNA3.SA",
-        "valor": 7.679999828338623,
-        "retorno": 1.0782952857142856,
-        "volume_medio": 12283616.666666666,
-        "desvio_padrao": 0.03677044356999597
+        "valor": 7.510000228881836,
+        "retorno": 1.0255035714285714,
+        "volume_medio": 0.29378571672997295,
+        "desvio_padrao": 0.3968660862076677
     },
     {
         "ticker": "BBAS3.SA",
-        "valor": 24.209999084472656,
-        "retorno": 1.0377828125000002,
-        "volume_medio": 18297744.444444444,
-        "desvio_padrao": 0.010690160701974457
+        "valor": 24.65999984741211,
+        "retorno": 1.0377828125,
+        "volume_medio": 0.1820429342738496,
+        "desvio_padrao": 0.16975853604043453
     },
     {
         "ticker": "PRIO3.SA",
-        "valor": 42.529998779296875,
+        "valor": 42.29999923706055,
         "retorno": 0.072644,
-        "volume_medio": 9154094.444444444,
-        "desvio_padrao": 0.014707374208707082
+        "volume_medio": 0.30074490898244144,
+        "desvio_padrao": 0.2899284647429642
     },
     {
         "ticker": "TIMS3.SA",
-        "valor": 13.84000015258789,
-        "retorno": 0.38173586666666665,
-        "volume_medio": 8697838.888888888,
-        "desvio_padrao": 0.014970698573742695
+        "valor": 13.989999771118164,
+        "retorno": 0.4223640666666667,
+        "volume_medio": 0.4738271836534438,
+        "desvio_padrao": 0.2526026734798015
     },
     {
         "ticker": "RAIL3.SA",
-        "valor": 17.110000610351562,
+        "valor": 17.280000686645508,
         "retorno": 0.059241999999999996,
-        "volume_medio": 11127322.222222222,
-        "desvio_padrao": 0.019452442972974247
+        "volume_medio": 0.22872851385363394,
+        "desvio_padrao": 0.2556751874649651
     },
     {
         "ticker": "CPLE6.SA",
-        "valor": 8.829999923706055,
-        "retorno": 0.2726026,
-        "volume_medio": 19431683.333333332,
-        "desvio_padrao": 0.01582744677600556
+        "valor": 8.850000381469727,
+        "retorno": 0.26981905,
+        "volume_medio": 0.29859811835141925,
+        "desvio_padrao": 0.20699666433970956
     },
     {
         "ticker": "CMIG4.SA",
-        "valor": 10.489999771118164,
-        "retorno": 0.7466617999999998,
-        "volume_medio": 15316738.888888888,
-        "desvio_padrao": 0.01834525234348255
+        "valor": 10.470000267028809,
+        "retorno": 0.7092760666666666,
+        "volume_medio": 0.26295967020052247,
+        "desvio_padrao": 0.2602863541591003
     },
     {
         "ticker": "CSAN3.SA",
-        "valor": 8.210000038146973,
+        "valor": 8.180000305175781,
         "retorno": 0.2738649411764706,
-        "volume_medio": 16960611.111111112,
-        "desvio_padrao": 0.021268015902965346
+        "volume_medio": 0.3679650734517883,
+        "desvio_padrao": 0.31702354876340505
     },
     {
         "ticker": "ASAI3.SA",
-        "valor": 5.519999980926514,
-        "retorno": 0.10378974999999999,
-        "volume_medio": 24388705.555555556,
-        "desvio_padrao": 0.038214544165086205
+        "valor": 5.389999866485596,
+        "retorno": 0.10378975,
+        "volume_medio": 0.38106579339089014,
+        "desvio_padrao": 0.4311173817048713
     },
     {
         "ticker": "LREN3.SA",
-        "valor": 12.850000381469727,
-        "retorno": 0.35649217647058823,
-        "volume_medio": 14688744.444444444,
-        "desvio_padrao": 0.029250652384307345
+        "valor": 12.619999885559082,
+        "retorno": 0.3580605294117647,
+        "volume_medio": 0.334861159068379,
+        "desvio_padrao": 0.42698481936922594
     },
     {
         "ticker": "EQTL3.SA",
-        "valor": 27.139999389648438,
-        "retorno": 0.2784639411764706,
-        "volume_medio": 10882305.555555556,
-        "desvio_padrao": 0.022689998134951057
+        "valor": 27.049999237060547,
+        "retorno": 0.25353272222222223,
+        "volume_medio": 0.3972060323841655,
+        "desvio_padrao": 0.2862563691853043
     },
     {
         "ticker": "BRFS3.SA",
-        "valor": 23.549999237060547,
+        "valor": 23.760000228881836,
         "retorno": 0.5234946363636364,
-        "volume_medio": 8217127.777777778,
-        "desvio_padrao": 0.02087123936729931
+        "volume_medio": 0.21099578216458165,
+        "desvio_padrao": 0.3917586748119369
     },
     {
         "ticker": "USIM5.SA",
-        "valor": 4.75,
-        "retorno": 0.40585507142857136,
-        "volume_medio": 13037788.888888888,
-        "desvio_padrao": 0.024727456694385187
+        "valor": 4.710000038146973,
+        "retorno": 0.4001132142857143,
+        "volume_medio": 0.4056183912203756,
+        "desvio_padrao": 0.4518260176091541
     },
     {
         "ticker": "RENT3.SA",
-        "valor": 28.760000228881836,
+        "valor": 29.329999923706055,
         "retorno": 0.4196015,
-        "volume_medio": 12525972.222222222,
-        "desvio_padrao": 0.03200672866311866
+        "volume_medio": 0.18168324265631677,
+        "desvio_padrao": 0.40574351180717744
     },
     {
         "ticker": "ENEV3.SA",
-        "valor": 11.0600004196167,
+        "valor": 10.789999961853027,
         "retorno": 1.646989,
-        "volume_medio": 12301144.444444444,
-        "desvio_padrao": 0.03725087569870007
+        "volume_medio": 0.19389835469663658,
+        "desvio_padrao": 0.26527002836395647
     },
     {
         "ticker": "PCAR3.SA",
-        "valor": 2.630000114440918,
-        "retorno": 0.32217501401901244,
-        "volume_medio": 20059394.444444444,
-        "desvio_padrao": 0.05748297736288879
-    },
-    {
-        "ticker": "BRAV3.SA",
-        "valor": 25.399999618530273,
-        "retorno": 0,
-        "volume_medio": 11399427.777777778,
-        "desvio_padrao": 0.04336939071216527
+        "valor": 2.7100000381469727,
+        "retorno": 0.33197500467300417,
+        "volume_medio": 0.0893073510547896,
+        "desvio_padrao": 0.6288186882733493
     },
     {
         "ticker": "BBDC3.SA",
-        "valor": 10.329999923706055,
-        "retorno": 0.5433207222222222,
-        "volume_medio": 11610216.666666666,
-        "desvio_padrao": 0.01609351244942657
+        "valor": 10.569999694824219,
+        "retorno": 0.5433207222222223,
+        "volume_medio": 0.36092963361755376,
+        "desvio_padrao": 0.24881758361356854
     },
     {
         "ticker": "GOAU4.SA",
-        "valor": 9.479999542236328,
-        "retorno": 0.6653384583333333,
-        "volume_medio": 9694005.555555556,
-        "desvio_padrao": 0.019633975610825832
+        "valor": 9.460000038146973,
+        "retorno": 0.67824275,
+        "volume_medio": 0.5424985291233575,
+        "desvio_padrao": 0.26253537158475143
     },
     {
         "ticker": "GOLL4.SA",
-        "valor": 1.5700000524520874,
-        "retorno": 0.1923250064253807,
-        "volume_medio": 6406727.777777778,
-        "desvio_padrao": 0.04774824981469752
+        "valor": 1.590000033378601,
+        "retorno": 0.19477500408887863,
+        "volume_medio": 0.17775486688095093,
+        "desvio_padrao": 0.7639953839851036
     },
     {
         "ticker": "RADL3.SA",
-        "valor": 20.950000762939453,
+        "valor": 21.0,
         "retorno": 0.11278805555555554,
-        "volume_medio": 9642050.0,
-        "desvio_padrao": 0.025938496674247715
+        "volume_medio": 0.1620131347576699,
+        "desvio_padrao": 0.26537651357370456
     },
     {
         "ticker": "PETR3.SA",
-        "valor": 40.95000076293945,
-        "retorno": 3.2986312307692307,
-        "volume_medio": 10569761.111111112,
-        "desvio_padrao": 0.01441968663688814
+        "valor": 41.0,
+        "retorno": 3.2728916153846157,
+        "volume_medio": 0.3497864013449825,
+        "desvio_padrao": 0.27836818395767693
     },
     {
         "ticker": "POMO4.SA",
-        "valor": 7.289999961853027,
-        "retorno": 0.12168953333333335,
-        "volume_medio": 13169822.222222222,
-        "desvio_padrao": 0.024234703639574882
+        "valor": 7.559999942779541,
+        "retorno": 0.12761553333333334,
+        "volume_medio": 0.14974834222511865,
+        "desvio_padrao": 0.41079796355114123
     },
     {
         "ticker": "MRFG3.SA",
-        "valor": 16.899999618530273,
+        "valor": 16.610000610351562,
         "retorno": 1.7174831666666666,
-        "volume_medio": 13257594.444444444,
-        "desvio_padrao": 0.028772946951243567
+        "volume_medio": 0.19769509444004282,
+        "desvio_padrao": 0.45591907930589526
     },
     {
         "ticker": "RAIZ4.SA",
         "valor": 2.0199999809265137,
         "retorno": 0.1198535,
-        "volume_medio": 13812200.0,
-        "desvio_padrao": 0.02886082310318154
+        "volume_medio": 0.22432503200279297,
+        "desvio_padrao": 0.335591866126816
     },
     {
         "ticker": "ELET3.SA",
-        "valor": 33.970001220703125,
-        "retorno": 1.3239584545454546,
-        "volume_medio": 9323561.111111112,
-        "desvio_padrao": 0.01024251739991989
+        "valor": 34.04999923706055,
+        "retorno": 1.3222494545454546,
+        "volume_medio": 0.31943574141041997,
+        "desvio_padrao": 0.23727028870207176
     },
     {
         "ticker": "CMIN3.SA",
-        "valor": 4.949999809265137,
-        "retorno": 0.48434340000000004,
-        "volume_medio": 9568122.222222222,
-        "desvio_padrao": 0.029687854855784564
+        "valor": 4.860000133514404,
+        "retorno": 0.484339,
+        "volume_medio": 0.18104720699152435,
+        "desvio_padrao": 0.39089138192441597
     },
     {
         "ticker": "BEEF3.SA",
-        "valor": 4.809999942779541,
-        "retorno": 0.4181155714285715,
-        "volume_medio": 10027722.222222222,
-        "desvio_padrao": 0.040587906965970984
+        "valor": 4.829999923706055,
+        "retorno": 0.4181155714285714,
+        "volume_medio": 0.36728924889240666,
+        "desvio_padrao": 0.3899106575689074
     },
     {
         "ticker": "MRVE3.SA",
-        "valor": 5.190000057220459,
-        "retorno": 0.5214613571428572,
-        "volume_medio": 10920705.555555556,
-        "desvio_padrao": 0.030723672698103575
+        "valor": 5.269999980926514,
+        "retorno": 0.5214613571428571,
+        "volume_medio": 0.24487813493465205,
+        "desvio_padrao": 0.46331572620130546
     },
     {
         "ticker": "ANIM3.SA",
-        "valor": 1.559999942779541,
+        "valor": 1.5499999523162842,
         "retorno": 0.11935757142857142,
-        "volume_medio": 10897538.888888888,
-        "desvio_padrao": 0.04219411419427067
+        "volume_medio": 0.49143592995310903,
+        "desvio_padrao": 0.586915351305035
     },
     {
         "ticker": "OIBR3.SA",
-        "valor": 1.440000057220459,
-        "retorno": 0.17640000700950623,
-        "volume_medio": 2412850.0,
-        "desvio_padrao": 0.03309869939168482
+        "valor": 1.399999976158142,
+        "retorno": 0.1714999970793724,
+        "volume_medio": 0.12033804207019924,
+        "desvio_padrao": 1.2486581185590213
     },
     {
         "ticker": "ECOR3.SA",
-        "valor": 4.639999866485596,
+        "valor": 4.579999923706055,
         "retorno": 0.44382866666666665,
-        "volume_medio": 4457388.888888889,
-        "desvio_padrao": 0.03140846117048612
+        "volume_medio": 0.22680334806733754,
+        "desvio_padrao": 0.4653940987916716
     },
     {
         "ticker": "VBBR3.SA",
         "valor": 17.5,
-        "retorno": 1.4719085714285713,
-        "volume_medio": 12306955.555555556,
-        "desvio_padrao": 0.0211330310418581
+        "retorno": 1.4717867142857144,
+        "volume_medio": 0.2387985928171822,
+        "desvio_padrao": 0.2628340307120831
     },
     {
         "ticker": "BPAC11.SA",
-        "valor": 28.31999969482422,
-        "retorno": 0,
-        "volume_medio": 8906833.333333334,
-        "desvio_padrao": 0.026501873686055402
+        "valor": 28.489999771118164,
+        "retorno": 0.44471133333333335,
+        "volume_medio": 0.29628959902738555,
+        "desvio_padrao": 0.26893960385936305
     },
     {
         "ticker": "CCRO3.SA",
-        "valor": 10.149999618530273,
-        "retorno": 0.4945315294117648,
-        "volume_medio": 12460472.222222222,
-        "desvio_padrao": 0.020218415054184296
+        "valor": 10.079999923706055,
+        "retorno": 0.49586664705882355,
+        "volume_medio": 0.12214099611785456,
+        "desvio_padrao": 0.2400485282393513
     },
     {
         "ticker": "ONCO3.SA",
-        "valor": 2.069999933242798,
+        "valor": 2.059999942779541,
         "retorno": 0,
-        "volume_medio": 7882944.444444444,
-        "desvio_padrao": 0.07646223991823774
+        "volume_medio": 0.2807168391982786,
+        "desvio_padrao": 0.8524150128786289
     },
     {
         "ticker": "CAML3.SA",
-        "valor": 4.889999866485596,
+        "valor": 4.900000095367432,
         "retorno": 0.284615375,
-        "volume_medio": 1257283.3333333333,
-        "desvio_padrao": 0.03747176856589391
+        "volume_medio": 0.06246017105483817,
+        "desvio_padrao": 0.3573571269720485
     },
     {
         "ticker": "UGPA3.SA",
-        "valor": 15.510000228881836,
+        "valor": 15.600000381469727,
         "retorno": 0.3106984705882353,
-        "volume_medio": 6513088.888888889,
-        "desvio_padrao": 0.020643621731745523
+        "volume_medio": 0.28405546266146464,
+        "desvio_padrao": 0.3050119783825893
     },
     {
         "ticker": "JBSS3.SA",
-        "valor": 35.45000076293945,
+        "valor": 34.939998626708984,
         "retorno": 0.7600956,
-        "volume_medio": 7806161.111111111,
-        "desvio_padrao": 0.018252111455275458
+        "volume_medio": 0.3891601358738743,
+        "desvio_padrao": 0.31273187287083803
     },
     {
         "ticker": "AURE3.SA",
-        "valor": 7.769999980926514,
+        "valor": 7.829999923706055,
         "retorno": 1.1379836666666667,
-        "volume_medio": 6327466.666666667,
-        "desvio_padrao": 0.014761906924655217
+        "volume_medio": 0.3508712208631433,
+        "desvio_padrao": 0.18769812180768936
     },
     {
         "ticker": "CPLE3.SA",
-        "valor": 7.920000076293945,
-        "retorno": 0.2273634210526316,
-        "volume_medio": 6999816.666666667,
-        "desvio_padrao": 0.016642493479094668
+        "valor": 8.0,
+        "retorno": 0.22675610526315793,
+        "volume_medio": 0.22954267673823003,
+        "desvio_padrao": 0.2184897506905522
     },
     {
         "ticker": "WEGE3.SA",
-        "valor": 53.25,
+        "valor": 52.959999084472656,
         "retorno": 0.2250054117647059,
-        "volume_medio": 6394016.666666667,
-        "desvio_padrao": 0.0133540042672491
+        "volume_medio": 0.19665026938393065,
+        "desvio_padrao": 0.2526466420169504
     },
     {
         "ticker": "ENGI11.SA",
-        "valor": 36.439998626708984,
+        "valor": 36.290000915527344,
         "retorno": 1.0080720666666667,
-        "volume_medio": 3609294.4444444445,
-        "desvio_padrao": 0.02225167720954463
+        "volume_medio": 0.19410753146352971,
+        "desvio_padrao": 0.24492914544314276
     },
     {
         "ticker": "SIMH3.SA",
-        "valor": 3.259999990463257,
+        "valor": 3.3299999237060547,
         "retorno": 0.2944023333333333,
-        "volume_medio": 5493516.666666667,
-        "desvio_padrao": 0.035451553424691584
+        "volume_medio": 0.1318892939733851,
+        "desvio_padrao": 0.5447354953218532
     },
     {
         "ticker": "CEAB3.SA",
-        "valor": 7.78000020980835,
+        "valor": 8.020000457763672,
         "retorno": 0.299084,
-        "volume_medio": 4697038.888888889,
-        "desvio_padrao": 0.03296741564993725
+        "volume_medio": 0.49312978662407336,
+        "desvio_padrao": 0.6147271135959249
     },
     {
         "ticker": "NTCO3.SA",
-        "valor": 12.079999923706055,
+        "valor": 12.359999656677246,
         "retorno": 0.29595133333333334,
-        "volume_medio": 9881894.444444444,
-        "desvio_padrao": 0.028174845117676144
+        "volume_medio": 0.34580793508238905,
+        "desvio_padrao": 0.3810456484500674
     },
     {
         "ticker": "ALOS3.SA",
-        "valor": 17.170000076293945,
-        "retorno": 1.430533,
-        "volume_medio": 5056422.222222222,
-        "desvio_padrao": 0.015631065633600595
+        "valor": 17.6200008392334,
+        "retorno": 1.430233,
+        "volume_medio": 0.38404366962705383,
+        "desvio_padrao": 0.22918545335601806
     },
     {
         "ticker": "PETZ3.SA",
-        "valor": 4.099999904632568,
+        "valor": 4.289999961853027,
         "retorno": 0.0801396,
-        "volume_medio": 7176061.111111111,
-        "desvio_padrao": 0.02876285378571569
+        "volume_medio": 0.23752151462994836,
+        "desvio_padrao": 0.7090345423012294
     },
     {
         "ticker": "SUZB3.SA",
-        "valor": 62.08000183105469,
+        "valor": 61.04999923706055,
         "retorno": 0.7497564615384615,
-        "volume_medio": 6600544.444444444,
-        "desvio_padrao": 0.012180300201260673
+        "volume_medio": 0.23022451259504847,
+        "desvio_padrao": 0.27975461190291684
     },
     {
         "ticker": "EMBR3.SA",
-        "valor": 56.54999923706055,
-        "retorno": 0.22990618181818182,
-        "volume_medio": 5168544.444444444,
-        "desvio_padrao": 0.01532743702227086
+        "valor": 56.779998779296875,
+        "retorno": 0.22990618181818184,
+        "volume_medio": 0.3572549803070951,
+        "desvio_padrao": 0.3982026267616138
     },
     {
         "ticker": "MOVI3.SA",
-        "valor": 3.3399999141693115,
-        "retorno": 0.39041185714285714,
-        "volume_medio": 6716822.222222222,
-        "desvio_padrao": 0.0346347446261415
+        "valor": 3.5299999713897705,
+        "retorno": 0.3904118571428571,
+        "volume_medio": 0.36945491526922614,
+        "desvio_padrao": 0.5592985382514777
     },
     {
         "ticker": "IFCM3.SA",
         "valor": 0.07999999821186066,
         "retorno": 0,
-        "volume_medio": 10397183.333333334,
-        "desvio_padrao": 0.16163345643376534
+        "volume_medio": 0.07585188619344696,
+        "desvio_padrao": 1.2176178971245064
     },
     {
         "ticker": "HYPE3.SA",
-        "valor": 17.979999542236328,
-        "retorno": 0.9394282727272728,
-        "volume_medio": 5664505.555555556,
-        "desvio_padrao": 0.023954189417239705
+        "valor": 18.079999923706055,
+        "retorno": 0.9394282727272727,
+        "volume_medio": 0.222985126787201,
+        "desvio_padrao": 0.3389793379017495
     },
     {
         "ticker": "STBP3.SA",
-        "valor": 13.140000343322754,
-        "retorno": 0.370821076923077,
-        "volume_medio": 4931100.0,
-        "desvio_padrao": 0.004281104553842146
+        "valor": 13.039999961853027,
+        "retorno": 0.36882584615384617,
+        "volume_medio": 0.3021166816896155,
+        "desvio_padrao": 0.354275786935151
     },
     {
         "ticker": "CYRE3.SA",
-        "valor": 16.389999389648438,
+        "valor": 16.719999313354492,
         "retorno": 0.6776772,
-        "volume_medio": 7411777.777777778,
-        "desvio_padrao": 0.024243782843517542
+        "volume_medio": 0.23363953100093876,
+        "desvio_padrao": 0.3391512470955879
     },
     {
         "ticker": "LWSA3.SA",
-        "valor": 3.3299999237060547,
+        "valor": 3.299999952316284,
         "retorno": 0.05194833333333334,
-        "volume_medio": 5056488.888888889,
-        "desvio_padrao": 0.02484058530153817
+        "volume_medio": 0.3145120785470099,
+        "desvio_padrao": 0.4593311686260443
     },
     {
         "ticker": "BBSE3.SA",
-        "valor": 36.18000030517578,
+        "valor": 36.959999084472656,
         "retorno": 2.0425010833333332,
-        "volume_medio": 4924655.555555556,
-        "desvio_padrao": 0.010399090318828961
+        "volume_medio": 0.21890698283455945,
+        "desvio_padrao": 0.1554022196795076
     },
     {
         "ticker": "VIVA3.SA",
-        "valor": 18.3799991607666,
+        "valor": 18.579999923706055,
         "retorno": 0.23235383333333334,
-        "volume_medio": 3375266.6666666665,
-        "desvio_padrao": 0.025338674632693077
+        "volume_medio": 0.43222762035379714,
+        "desvio_padrao": 0.3686120222273012
     },
     {
         "ticker": "YDUQ3.SA",
-        "valor": 8.59000015258789,
-        "retorno": 0.43021193750000003,
-        "volume_medio": 4825716.666666667,
-        "desvio_padrao": 0.04314178282967667
+        "valor": 8.510000228881836,
+        "retorno": 0.4302119375,
+        "volume_medio": 0.27300262731591773,
+        "desvio_padrao": 0.5162349183142043
     },
     {
         "ticker": "RDOR3.SA",
-        "valor": 26.059999465942383,
-        "retorno": 0.74497825,
-        "volume_medio": 5924200.0,
-        "desvio_padrao": 0.016911588369771035
+        "valor": 26.219999313354492,
+        "retorno": 0.745062,
+        "volume_medio": 0.23233058385896815,
+        "desvio_padrao": 0.3028057889537946
     },
     {
         "ticker": "KLBN11.SA",
-        "valor": 22.100000381469727,
+        "valor": 21.719999313354492,
         "retorno": 0.7242815454545455,
-        "volume_medio": 5778316.666666667,
-        "desvio_padrao": 0.009807662293777424
+        "volume_medio": 0.14993621313712693,
+        "desvio_padrao": 0.19178935499305286
     },
     {
         "ticker": "MULT3.SA",
-        "valor": 20.0,
-        "retorno": 0.4208047647058824,
-        "volume_medio": 4659772.222222222,
-        "desvio_padrao": 0.01790961760349919
+        "valor": 20.540000915527344,
+        "retorno": 0.41867029411764706,
+        "volume_medio": 0.36955622155065393,
+        "desvio_padrao": 0.2497524812858548
     },
     {
         "ticker": "GGPS3.SA",
-        "valor": 13.800000190734863,
-        "retorno": 0.22414433333333336,
-        "volume_medio": 2244666.6666666665,
-        "desvio_padrao": 0.022890596696838354
+        "valor": 13.880000114440918,
+        "retorno": 0.179642,
+        "volume_medio": 0.2177054873222174,
+        "desvio_padrao": 0.24877552043908552
     },
     {
         "ticker": "VAMO3.SA",
-        "valor": 4.380000114440918,
+        "valor": 4.510000228881836,
         "retorno": 0.31327525,
-        "volume_medio": 10449588.888888888,
-        "desvio_padrao": 0.05010305721306193
-    },
-    {
-        "ticker": "ISAE4.SA",
-        "valor": 22.68000030517578,
-        "retorno": 0.668903,
-        "volume_medio": 4665594.444444444,
-        "desvio_padrao": 0.013428990299079518
+        "volume_medio": 0.29179183054101765,
+        "desvio_padrao": 0.5146468372702565
     },
     {
         "ticker": "GMAT3.SA",
-        "valor": 5.889999866485596,
-        "retorno": 0.19362500000000002,
-        "volume_medio": 4731327.777777778,
-        "desvio_padrao": 0.025928899247253372
+        "valor": 5.929999828338623,
+        "retorno": 0.193653,
+        "volume_medio": 0.2951067765259795,
+        "desvio_padrao": 0.3109268860685872
     },
     {
         "ticker": "TOTS3.SA",
-        "valor": 26.729999542236328,
+        "valor": 27.760000228881836,
         "retorno": 0.24102500000000002,
-        "volume_medio": 3259983.3333333335,
-        "desvio_padrao": 0.025257254579248146
+        "volume_medio": 0.27258422144338745,
+        "desvio_padrao": 0.32912281358226647
     },
     {
         "ticker": "RAPT4.SA",
-        "valor": 8.550000190734863,
+        "valor": 8.369999885559082,
         "retorno": 0.31067878571428575,
-        "volume_medio": 2088650.0,
-        "desvio_padrao": 0.019486546906561188
+        "volume_medio": 0.3998077760046424,
+        "desvio_padrao": 0.3297484174718984
     },
     {
         "ticker": "IRBR3.SA",
-        "valor": 48.20000076293945,
-        "retorno": 4.116427249999999,
-        "volume_medio": 1740305.5555555555,
-        "desvio_padrao": 0.03901119135181151
+        "valor": 47.06999969482422,
+        "retorno": 5.766074962615967,
+        "volume_medio": 0.3560096762397682,
+        "desvio_padrao": 0.5537626777713202
     },
     {
         "ticker": "SBSP3.SA",
-        "valor": 88.16000366210938,
-        "retorno": 0.8187368823529413,
-        "volume_medio": 4297355.555555556,
-        "desvio_padrao": 0.014031404558343225
+        "valor": 88.04000091552734,
+        "retorno": 0.8187368823529412,
+        "volume_medio": 0.2330572336052812,
+        "desvio_padrao": 0.2330219677351024
     },
     {
         "ticker": "BRAP4.SA",
-        "valor": 15.529999732971191,
-        "retorno": 1.778201125,
-        "volume_medio": 3303550.0,
-        "desvio_padrao": 0.00915676309406145
+        "valor": 15.729999542236328,
+        "retorno": 0,
+        "volume_medio": 0.30512355374643274,
+        "desvio_padrao": 0.22498412440716936
     },
     {
         "ticker": "HBSA3.SA",
-        "valor": 2.7100000381469727,
+        "valor": 2.990000009536743,
         "retorno": 0,
-        "volume_medio": 3014411.111111111,
-        "desvio_padrao": 0.02515712292367334
+        "volume_medio": 0.4637728057199211,
+        "desvio_padrao": 0.4075748417245903
     },
     {
         "ticker": "CXSE3.SA",
-        "valor": 14.109999656677246,
+        "valor": 14.220000267028809,
         "retorno": 0.6591174,
-        "volume_medio": 5176366.666666667,
-        "desvio_padrao": 0.018321260635556853
+        "volume_medio": 0.2763611193304307,
+        "desvio_padrao": 0.2485738541652764
     },
     {
         "ticker": "FLRY3.SA",
-        "valor": 11.550000190734863,
+        "valor": 11.579999923706055,
         "retorno": 0.5592500666666668,
-        "volume_medio": 2899872.222222222,
-        "desvio_padrao": 0.017774274314594784
+        "volume_medio": 0.3035923736804581,
+        "desvio_padrao": 0.2231427332602933
     },
     {
         "ticker": "LJQQ3.SA",
         "valor": 2.0199999809265137,
         "retorno": 0.16549666666666665,
-        "volume_medio": 3509616.6666666665,
-        "desvio_padrao": 0.035672602345159385
+        "volume_medio": 0.4213435201365465,
+        "desvio_padrao": 0.5531797792077741
     },
     {
         "ticker": "SLCE3.SA",
-        "valor": 17.3700008392334,
-        "retorno": 0.5271135333333332,
-        "volume_medio": 2089455.5555555555,
-        "desvio_padrao": 0.012648051270204906
+        "valor": 17.65999984741211,
+        "retorno": 0.5271135333333333,
+        "volume_medio": 0.2833764130671732,
+        "desvio_padrao": 0.22588334909426971
     },
     {
         "ticker": "QUAL3.SA",
-        "valor": 1.4700000286102295,
-        "retorno": 0.1800750035047531,
-        "volume_medio": 5116088.888888889,
-        "desvio_padrao": 0.07554257820941197
+        "valor": 1.4900000095367432,
+        "retorno": 0.18252500116825104,
+        "volume_medio": 0.2448321720778282,
+        "desvio_padrao": 0.7840250684267039
     },
     {
         "ticker": "TEND3.SA",
-        "valor": 12.119999885559082,
-        "retorno": 0.33256840000000004,
-        "volume_medio": 3199822.222222222,
-        "desvio_padrao": 0.03520494936131558
+        "valor": 12.100000381469727,
+        "retorno": 0.3325684,
+        "volume_medio": 0.15828137354003824,
+        "desvio_padrao": 0.507201479241979
     },
     {
         "ticker": "SBFG3.SA",
-        "valor": 10.619999885559082,
+        "valor": 10.65999984741211,
         "retorno": 0.14239766666666667,
-        "volume_medio": 2623872.222222222,
-        "desvio_padrao": 0.03628314265349557
+        "volume_medio": 0.2854030501089324,
+        "desvio_padrao": 0.4795674282541899
     },
     {
         "ticker": "RCSL3.SA",
-        "valor": 4.659999847412109,
+        "valor": 4.869999885559082,
         "retorno": 0,
-        "volume_medio": 2349311.111111111,
-        "desvio_padrao": 0.0796969950331137
+        "volume_medio": 0.49311055498307077,
+        "desvio_padrao": 1.030901420643327
     },
     {
         "ticker": "DIRR3.SA",
-        "valor": 24.25,
+        "valor": 24.610000610351562,
         "retorno": 0.7291076428571428,
-        "volume_medio": 2512950.0,
-        "desvio_padrao": 0.021388566092767455
+        "volume_medio": 0.2432395452396945,
+        "desvio_padrao": 0.30297235487703156
     },
     {
         "ticker": "GFSA3.SA",
-        "valor": 1.149999976158142,
-        "retorno": 0.1408749970793724,
-        "volume_medio": 3199950.0,
-        "desvio_padrao": 0.04111372647636217
+        "valor": 1.1699999570846558,
+        "retorno": 0.14332499474287033,
+        "volume_medio": 0.19576153053597042,
+        "desvio_padrao": 0.888780557272182
     },
     {
         "ticker": "EVEN3.SA",
-        "valor": 5.5,
+        "valor": 5.53000020980835,
         "retorno": 0.28112135714285713,
-        "volume_medio": 1395044.4444444445,
-        "desvio_padrao": 0.017128266908429904
+        "volume_medio": 0.1855302974389254,
+        "desvio_padrao": 0.3429525329252582
     },
     {
         "ticker": "CBAV3.SA",
-        "valor": 4.590000152587891,
+        "valor": 4.610000133514404,
         "retorno": 0.316345,
-        "volume_medio": 4194366.666666667,
-        "desvio_padrao": 0.027654053438802804
+        "volume_medio": 0.45113839856740856,
+        "desvio_padrao": 0.5394206706768893
     },
     {
         "ticker": "BRKM5.SA",
-        "valor": 11.270000457763672,
-        "retorno": 1.5961114285714288,
-        "volume_medio": 3721794.4444444445,
-        "desvio_padrao": 0.026823857579222562
+        "valor": 11.569999694824219,
+        "retorno": 1.5961114285714284,
+        "volume_medio": 0.46894038445489195,
+        "desvio_padrao": 0.45435266973494515
     },
     {
         "ticker": "CURY3.SA",
-        "valor": 18.549999237060547,
+        "valor": 19.139999389648438,
         "retorno": 0.9703444999999999,
-        "volume_medio": 2063850.0,
-        "desvio_padrao": 0.02152335951840534
+        "volume_medio": 0.3028980052691005,
+        "desvio_padrao": 0.30111080100716875
     },
     {
         "ticker": "DXCO3.SA",
-        "valor": 5.900000095367432,
+        "valor": 5.920000076293945,
         "retorno": 0.290278125,
-        "volume_medio": 4051000.0,
-        "desvio_padrao": 0.01987098794175046
+        "volume_medio": 0.3353364169446972,
+        "desvio_padrao": 0.3833974070036117
     },
     {
         "ticker": "RECV3.SA",
-        "valor": 16.469999313354492,
+        "valor": 16.59000015258789,
         "retorno": 1.505344,
-        "volume_medio": 2527738.888888889,
-        "desvio_padrao": 0.023157350160247475
+        "volume_medio": 0.25448253854285086,
+        "desvio_padrao": 0.3553774325874931
     },
     {
         "ticker": "SANB11.SA",
-        "valor": 23.8799991607666,
-        "retorno": 1.477974333333333,
-        "volume_medio": 2374911.111111111,
-        "desvio_padrao": 0.019039981042706072
+        "valor": 24.06999969482422,
+        "retorno": 1.4812188666666666,
+        "volume_medio": 0.1917096610429629,
+        "desvio_padrao": 0.2184704521853126
     },
     {
         "ticker": "AMER3.SA",
-        "valor": 5.480000019073486,
-        "retorno": 0.6713000023365021,
-        "volume_medio": 2817861.111111111,
-        "desvio_padrao": 0.07382860190862205
+        "valor": 5.579999923706055,
+        "retorno": 0.6835499906539917,
+        "volume_medio": 0.13202895509861517,
+        "desvio_padrao": 2.2094476047892058
     },
     {
         "ticker": "IGTI11.SA",
-        "valor": 16.649999618530273,
+        "valor": 17.229999542236328,
         "retorno": 0.4601376666666667,
-        "volume_medio": 2698422.222222222,
-        "desvio_padrao": 0.01746705628018798
+        "volume_medio": 0.18836644986773277,
+        "desvio_padrao": 0.2506043188907812
     },
     {
         "ticker": "IGTI11.SA",
-        "valor": 16.649999618530273,
+        "valor": 17.229999542236328,
         "retorno": 0.4601376666666667,
-        "volume_medio": 2698422.222222222,
-        "desvio_padrao": 0.01746705628018798
+        "volume_medio": 0.18836644986773277,
+        "desvio_padrao": 0.2506043188907812
     },
     {
         "ticker": "SRNA3.SA",
-        "valor": 5.730000019073486,
+        "valor": 5.639999866485596,
         "retorno": 0,
-        "volume_medio": 2503161.111111111,
-        "desvio_padrao": 0.03896210415799653
+        "volume_medio": 0.2530415346310548,
+        "desvio_padrao": 0.37969625523065786
     },
     {
         "ticker": "BHIA3.SA",
-        "valor": 2.700000047683716,
-        "retorno": 0.3307500058412552,
-        "volume_medio": 2495422.222222222,
-        "desvio_padrao": 0.03349256124136257
+        "valor": 2.690000057220459,
+        "retorno": 0.3295250070095062,
+        "volume_medio": 0.2070740424209463,
+        "desvio_padrao": 0.7985617750943739
     },
     {
         "ticker": "SMFT3.SA",
-        "valor": 17.350000381469727,
-        "retorno": 0.48943349999999997,
-        "volume_medio": 2571216.6666666665,
-        "desvio_padrao": 0.027386552135822508
+        "valor": 17.68000030517578,
+        "retorno": 0.4897585,
+        "volume_medio": 0.49760310455029677,
+        "desvio_padrao": 0.32284613002482315
     },
     {
         "ticker": "VVEO3.SA",
-        "valor": 1.8899999856948853,
+        "valor": 1.850000023841858,
         "retorno": 0.27244066666666666,
-        "volume_medio": 1675650.0,
-        "desvio_padrao": 0.047206985794135174
+        "volume_medio": 0.25013668671405137,
+        "desvio_padrao": 0.7832278358829413
     },
     {
         "ticker": "ALPA4.SA",
-        "valor": 6.139999866485596,
-        "retorno": 0.22347607692307692,
-        "volume_medio": 3512727.777777778,
-        "desvio_padrao": 0.03482268013451752
+        "valor": 6.090000152587891,
+        "retorno": 0.24032076923076923,
+        "volume_medio": 0.25603620254650006,
+        "desvio_padrao": 0.3704958463055073
     },
     {
         "ticker": "AZEV4.SA",
-        "valor": 0.9200000166893005,
-        "retorno": 0.1127000020444393,
-        "volume_medio": 4177716.6666666665,
-        "desvio_padrao": 0.07088155137632596
+        "valor": 0.9300000071525574,
+        "retorno": 0.1889595,
+        "volume_medio": 0.10819636783495976,
+        "desvio_padrao": 0.8455496967408103
     },
     {
         "ticker": "RCSL4.SA",
-        "valor": 0.7200000286102295,
+        "valor": 0.7099999785423279,
         "retorno": 0,
-        "volume_medio": 3652872.222222222,
-        "desvio_padrao": 0.051019385610622026
+        "volume_medio": 0.24842849791643545,
+        "desvio_padrao": 0.9147399085091198
     },
     {
         "ticker": "JHSF3.SA",
-        "valor": 3.630000114440918,
-        "retorno": 0.22314407692307686,
-        "volume_medio": 2912744.4444444445,
-        "desvio_padrao": 0.016985415928530243
+        "valor": 3.6600000858306885,
+        "retorno": 0.2231483846153846,
+        "volume_medio": 0.33515152671027787,
+        "desvio_padrao": 0.3354067826008189
     },
     {
         "ticker": "ODPV3.SA",
-        "valor": 10.5600004196167,
-        "retorno": 0.34018335294117646,
-        "volume_medio": 722900.0,
-        "desvio_padrao": 0.018268067100917863
+        "valor": 10.739999771118164,
+        "retorno": 0.3349080588235294,
+        "volume_medio": 0.2812239221140473,
+        "desvio_padrao": 0.2940359342864886
     },
     {
         "ticker": "PSSA3.SA",
-        "valor": 36.529998779296875,
-        "retorno": 0.9014834705882352,
-        "volume_medio": 2501138.888888889,
-        "desvio_padrao": 0.01658895246454785
+        "valor": 36.59000015258789,
+        "retorno": 0.9234256470588235,
+        "volume_medio": 0.18020577395577395,
+        "desvio_padrao": 0.22383222058677749
     },
     {
         "ticker": "SAPR4.SA",
-        "valor": 5.03000020980835,
+        "valor": 5.079999923706055,
         "retorno": 0.17938875,
-        "volume_medio": 2295816.6666666665,
-        "desvio_padrao": 0.020899115535221974
+        "volume_medio": 0.07357362467807994,
+        "desvio_padrao": 0.268746307962758
     },
     {
         "ticker": "ARML3.SA",
-        "valor": 4.670000076293945,
+        "valor": 4.739999771118164,
         "retorno": 0.24067925,
-        "volume_medio": 924194.4444444445,
-        "desvio_padrao": 0.04269730226216046
+        "volume_medio": 0.4607625649913345,
+        "desvio_padrao": 0.4869038312571595
     },
     {
         "ticker": "TAEE11.SA",
-        "valor": 32.20000076293945,
-        "retorno": 2.0690090588235295,
-        "volume_medio": 2191794.4444444445,
-        "desvio_padrao": 0.01705992171588706
+        "valor": 32.470001220703125,
+        "retorno": 2.0655940588235295,
+        "volume_medio": 0.4283521529056886,
+        "desvio_padrao": 0.14162038109873226
     },
     {
         "ticker": "TTEN3.SA",
-        "valor": 13.869999885559082,
+        "valor": 13.850000381469727,
         "retorno": 0.082708,
-        "volume_medio": 1046588.8888888889,
-        "desvio_padrao": 0.025630507636867517
+        "volume_medio": 0.4023248126928162,
+        "desvio_padrao": 0.3915990943869662
     },
     {
         "ticker": "EZTC3.SA",
-        "valor": 10.600000381469727,
+        "valor": 10.869999885559082,
         "retorno": 0.5977633529411764,
-        "volume_medio": 2782561.111111111,
-        "desvio_padrao": 0.0210482576609926
+        "volume_medio": 0.21033103473240305,
+        "desvio_padrao": 0.3991063297110246
     },
     {
         "ticker": "CPFE3.SA",
-        "valor": 32.02000045776367,
-        "retorno": 1.4026779999999996,
-        "volume_medio": 1656261.111111111,
-        "desvio_padrao": 0.014576499683787977
+        "valor": 32.41999816894531,
+        "retorno": 1.402678,
+        "volume_medio": 0.2676161221260356,
+        "desvio_padrao": 0.19221404181516652
     },
     {
         "ticker": "CSMG3.SA",
-        "valor": 21.75,
-        "retorno": 0.9360537333333333,
-        "volume_medio": 2071177.7777777778,
-        "desvio_padrao": 0.022998600137763708
+        "valor": 21.329999923706055,
+        "retorno": 0.9397725333333332,
+        "volume_medio": 0.20333325029271818,
+        "desvio_padrao": 0.2796850603722046
     },
     {
         "ticker": "VIVT3.SA",
-        "valor": 46.84000015258789,
-        "retorno": 3.1552110625,
-        "volume_medio": 2541816.6666666665,
-        "desvio_padrao": 0.015876337802079088
+        "valor": 47.15999984741211,
+        "retorno": 3.17792625,
+        "volume_medio": 0.2041426697204865,
+        "desvio_padrao": 0.2306544088526731
     },
     {
         "ticker": "AERI3.SA",
-        "valor": 7.239999771118164,
+        "valor": 7.139999866485596,
         "retorno": 0.41404,
-        "volume_medio": 1784166.6666666667,
-        "desvio_padrao": 0.12588373323596336
+        "volume_medio": 0.18701758266062146,
+        "desvio_padrao": 1.1100244694295311
     },
     {
         "ticker": "ELET6.SA",
-        "valor": 37.400001525878906,
-        "retorno": 1.7551941333333334,
-        "volume_medio": 1774666.6666666667,
-        "desvio_padrao": 0.01258323080089943
+        "valor": 37.63999938964844,
+        "retorno": 1.7567242,
+        "volume_medio": 0.2509931467069346,
+        "desvio_padrao": 0.2095332488014536
     },
     {
         "ticker": "SMTO3.SA",
-        "valor": 24.260000228881836,
-        "retorno": 0.5579189375,
-        "volume_medio": 1388005.5555555555,
-        "desvio_padrao": 0.022063788947361947
+        "valor": 24.34000015258789,
+        "retorno": 0.5503930625,
+        "volume_medio": 0.2855186855670103,
+        "desvio_padrao": 0.31859065238961787
     },
     {
         "ticker": "EGIE3.SA",
-        "valor": 34.66999816894531,
-        "retorno": 1.778343588235294,
-        "volume_medio": 1445750.0,
-        "desvio_padrao": 0.01453232928595254
+        "valor": 34.70000076293945,
+        "retorno": 1.8057012941176471,
+        "volume_medio": 0.28467168998923575,
+        "desvio_padrao": 0.18184846870993907
     },
     {
         "ticker": "BRSR6.SA",
-        "valor": 9.59000015258789,
+        "valor": 9.829999923706055,
         "retorno": 0.8733964000000001,
-        "volume_medio": 1812511.111111111,
-        "desvio_padrao": 0.01844940897243495
+        "volume_medio": 0.14082017844886752,
+        "desvio_padrao": 0.262684255386011
     },
     {
         "ticker": "MYPK3.SA",
-        "valor": 12.4399995803833,
-        "retorno": 0.4465875,
-        "volume_medio": 852694.4444444445,
-        "desvio_padrao": 0.02877692395350441
+        "valor": 12.470000267028809,
+        "retorno": 0.44658749999999997,
+        "volume_medio": 0.3778227165487024,
+        "desvio_padrao": 0.37284925722297513
     },
     {
         "ticker": "BPAN4.SA",
-        "valor": 6.300000190734863,
+        "valor": 6.579999923706055,
         "retorno": 0.1722116923076923,
-        "volume_medio": 2763422.222222222,
-        "desvio_padrao": 0.023573261173768734
+        "volume_medio": 0.03561352298575654,
+        "desvio_padrao": 0.30816101126496687
     },
     {
         "ticker": "ALUP11.SA",
-        "valor": 27.219999313354492,
+        "valor": 27.549999237060547,
         "retorno": 0.9644506363636364,
-        "volume_medio": 1292794.4444444445,
-        "desvio_padrao": 0.015223011463614246
+        "volume_medio": 0.30422098825044264,
+        "desvio_padrao": 0.17541192910473574
     },
     {
         "ticker": "DASA3.SA",
-        "valor": 1.840000033378601,
+        "valor": 1.809999942779541,
         "retorno": 0.195658,
-        "volume_medio": 1327361.111111111,
-        "desvio_padrao": 0.0451293087403043
+        "volume_medio": 0.33557686099812767,
+        "desvio_padrao": 0.6871262172045421
     },
     {
         "ticker": "HBOR3.SA",
-        "valor": 1.309999942779541,
-        "retorno": 0.16047499299049378,
-        "volume_medio": 913594.4444444445,
-        "desvio_padrao": 0.02399359983434212
+        "valor": 1.340000033378601,
+        "retorno": 0.16415000408887861,
+        "volume_medio": 0.13495838287752676,
+        "desvio_padrao": 0.4178011598733208
     },
     {
         "ticker": "AZZA3.SA",
-        "valor": 29.700000762939453,
-        "retorno": 0.9857643571428572,
-        "volume_medio": 2180455.5555555555,
-        "desvio_padrao": 0.031169743508773506
+        "valor": 30.299999237060547,
+        "retorno": 0.9978331428571429,
+        "volume_medio": 0.2796624354861208,
+        "desvio_padrao": 0.3782254853324639
     },
     {
         "ticker": "KEPL3.SA",
-        "valor": 9.220000267028809,
-        "retorno": 0.45185499999999995,
-        "volume_medio": 815177.7777777778,
-        "desvio_padrao": 0.016821542455078935
+        "valor": 9.239999771118164,
+        "retorno": 0.451855,
+        "volume_medio": 0.38250903342366754,
+        "desvio_padrao": 0.29515527782625123
     },
     {
         "ticker": "PLPL3.SA",
-        "valor": 8.729999542236328,
+        "valor": 8.75,
         "retorno": 0.25538625000000004,
-        "volume_medio": 942933.3333333334,
-        "desvio_padrao": 0.025081133895310945
+        "volume_medio": 0.3859433288356219,
+        "desvio_padrao": 0.4796718694690908
     },
     {
         "ticker": "POSI3.SA",
-        "valor": 5.03000020980835,
+        "valor": 4.989999771118164,
         "retorno": 0.26457976923076926,
-        "volume_medio": 1196133.3333333333,
-        "desvio_padrao": 0.044939626435632804
+        "volume_medio": 0.17508169283494063,
+        "desvio_padrao": 0.4840668511096253
     },
     {
         "ticker": "NEOE3.SA",
         "valor": 18.190000534057617,
         "retorno": 0.709817,
-        "volume_medio": 1392855.5555555555,
-        "desvio_padrao": 0.01116767297342604
+        "volume_medio": 0.05628230382005825,
+        "desvio_padrao": 0.205445712019688
     },
     {
         "ticker": "MTRE3.SA",
-        "valor": 2.9000000953674316,
+        "valor": 2.9200000762939453,
         "retorno": 0.50510875,
-        "volume_medio": 689316.6666666666,
-        "desvio_padrao": 0.03269669596856976
+        "volume_medio": 0.38555572221388934,
+        "desvio_padrao": 0.4815013597991971
     },
     {
         "ticker": "MLAS3.SA",
-        "valor": 1.1100000143051147,
+        "valor": 1.0800000429153442,
         "retorno": 0.123055,
-        "volume_medio": 1716005.5555555555,
-        "desvio_padrao": 0.04817616162283743
+        "volume_medio": 0.5105668529563706,
+        "desvio_padrao": 0.6102854222710258
     },
     {
         "ticker": "MDNE3.SA",
-        "valor": 10.329999923706055,
+        "valor": 10.420000076293945,
         "retorno": 0.65,
-        "volume_medio": 684988.8888888889,
-        "desvio_padrao": 0.023746827869429755
+        "volume_medio": 0.36128334534967554,
+        "desvio_padrao": 0.4234696017145937
     },
     {
         "ticker": "INTB3.SA",
-        "valor": 11.949999809265137,
+        "valor": 12.199999809265137,
         "retorno": 0.43722775,
-        "volume_medio": 1288938.888888889,
-        "desvio_padrao": 0.022162109938846503
+        "volume_medio": 0.3044954721862872,
+        "desvio_padrao": 0.34696585942153335
     },
     {
         "ticker": "PGMN3.SA",
-        "valor": 3.359999895095825,
+        "valor": 3.4100000858306885,
         "retorno": 0.2381265,
-        "volume_medio": 862450.0,
-        "desvio_padrao": 0.035547495620298124
+        "volume_medio": 0.3438877615282345,
+        "desvio_padrao": 0.44842607504474813
     },
     {
         "ticker": "GUAR3.SA",
-        "valor": 5.809999942779541,
+        "valor": 5.78000020980835,
         "retorno": 0.26826337499999997,
-        "volume_medio": 1003305.5555555555,
-        "desvio_padrao": 0.043928949564160304
+        "volume_medio": 0.2557542882275326,
+        "desvio_padrao": 0.5992381351363599
     },
     {
         "ticker": "MILS3.SA",
-        "valor": 8.229999542236328,
-        "retorno": 0.2689023,
-        "volume_medio": 644077.7777777778,
-        "desvio_padrao": 0.021001947904141564
+        "valor": 8.1899995803833,
+        "retorno": 0.2689009,
+        "volume_medio": 0.4333246516473499,
+        "desvio_padrao": 0.28192205857102415
     },
     {
         "ticker": "PDGR3.SA",
         "valor": 0.009999999776482582,
         "retorno": 0.0012249999726191164,
-        "volume_medio": 2688733.3333333335,
-        "desvio_padrao": 0.0
+        "volume_medio": 0.1296029939534429,
+        "desvio_padrao": 2.2579204856249477
     },
     {
         "ticker": "SAPR11.SA",
-        "valor": 25.25,
-        "retorno": 1.217800625,
-        "volume_medio": 1130188.888888889,
-        "desvio_padrao": 0.013210326566265619
+        "valor": 25.350000381469727,
+        "retorno": 1.217801125,
+        "volume_medio": 0.20999767315597612,
+        "desvio_padrao": 0.2458535625016484
     },
     {
         "ticker": "CMIG3.SA",
-        "valor": 14.229999542236328,
-        "retorno": 0.6942848235294117,
-        "volume_medio": 451250.0,
-        "desvio_padrao": 0.013937537777085961
+        "valor": 14.300000190734863,
+        "retorno": 0.6942848235294118,
+        "volume_medio": 0.036536988400087546,
+        "desvio_padrao": 0.25564895372778507
     },
     {
         "ticker": "MDIA3.SA",
-        "valor": 19.389999389648438,
+        "valor": 19.469999313354492,
         "retorno": 0.47966837500000004,
-        "volume_medio": 752788.8888888889,
-        "desvio_padrao": 0.028628148306490245
+        "volume_medio": 0.2863972755255747,
+        "desvio_padrao": 0.2914620290871168
     },
     {
         "ticker": "PMAM3.SA",
-        "valor": 1.4900000095367432,
-        "retorno": 0.18252500116825104,
-        "volume_medio": 502005.55555555556,
-        "desvio_padrao": 0.15092902313874287
+        "valor": 1.4199999570846558,
+        "retorno": 0.17394999474287032,
+        "volume_medio": 0.04742439144332432,
+        "desvio_padrao": 0.7784422726251017
     },
     {
         "ticker": "VULC3.SA",
-        "valor": 16.030000686645508,
+        "valor": 16.059999465942383,
         "retorno": 0.840517875,
-        "volume_medio": 782200.0,
-        "desvio_padrao": 0.022147020567779806
+        "volume_medio": 0.11381109280615045,
+        "desvio_padrao": 0.3097669675051232
     },
     {
         "ticker": "PORT3.SA",
-        "valor": 16.149999618530273,
+        "valor": 16.25,
         "retorno": 0.7685706666666666,
-        "volume_medio": 653311.1111111111,
-        "desvio_padrao": 0.007271446530131353
+        "volume_medio": 0.16876338329764454,
+        "desvio_padrao": 0.2052746526448675
     },
     {
         "ticker": "KLBN4.SA",
-        "valor": 4.329999923706055,
-        "retorno": 0.1369640666666667,
-        "volume_medio": 1056450.0,
-        "desvio_padrao": 0.009533462967715393
+        "valor": 4.260000228881836,
+        "retorno": 0.11832173333333333,
+        "volume_medio": 0.4726171875,
+        "desvio_padrao": 0.1989739876061176
     },
     {
         "ticker": "GRND3.SA",
-        "valor": 5.119999885559082,
-        "retorno": 0.3410481176470588,
-        "volume_medio": 1314894.4444444445,
-        "desvio_padrao": 0.020238475121975002
+        "valor": 5.320000171661377,
+        "retorno": 0.2827414117647059,
+        "volume_medio": 0.20218262806236081,
+        "desvio_padrao": 0.24671881314631353
     },
     {
         "ticker": "RANI3.SA",
-        "valor": 6.900000095367432,
+        "valor": 6.949999809265137,
         "retorno": 0.22102992857142859,
-        "volume_medio": 632016.6666666666,
-        "desvio_padrao": 0.020572716638107443
+        "volume_medio": 0.504036557501904,
+        "desvio_padrao": 0.294590231102025
     },
     {
         "ticker": "MEAL3.SA",
         "valor": 0.9200000166893005,
-        "retorno": 0.0073887499999999995,
-        "volume_medio": 478905.55555555556,
-        "desvio_padrao": 0.026660191213283908
+        "retorno": 0.00738875,
+        "volume_medio": 0.22811241809426067,
+        "desvio_padrao": 0.5029562551842387
     },
     {
         "ticker": "JALL3.SA",
-        "valor": 4.449999809265137,
+        "valor": 4.420000076293945,
         "retorno": 0.24494525,
-        "volume_medio": 630800.0,
-        "desvio_padrao": 0.01615122216769344
+        "volume_medio": 0.16807885906040268,
+        "desvio_padrao": 0.31396134676505155
     },
     {
         "ticker": "ZAMP3.SA",
-        "valor": 2.75,
-        "retorno": 0.06179200000000001,
-        "volume_medio": 686122.2222222222,
-        "desvio_padrao": 0.04826000209792328
+        "valor": 2.559999942779541,
+        "retorno": 0.06179199999999999,
+        "volume_medio": 0.5504125095932464,
+        "desvio_padrao": 0.5586250523576981
     },
     {
         "ticker": "ABCB4.SA",
-        "valor": 18.780000686645508,
+        "valor": 19.100000381469727,
         "retorno": 0.8074914,
-        "volume_medio": 933622.2222222222,
-        "desvio_padrao": 0.014220039347155006
+        "volume_medio": 0.06703757535323691,
+        "desvio_padrao": 0.2363788621282607
     },
     {
         "ticker": "LIGT3.SA",
-        "valor": 3.9600000381469727,
-        "retorno": 0.4851000046730041,
-        "volume_medio": 511127.77777777775,
-        "desvio_padrao": 0.030777690808394494
+        "valor": 3.890000104904175,
+        "retorno": 0.47652501285076143,
+        "volume_medio": 0.26868686868686864,
+        "desvio_padrao": 0.5766076466580575
     },
     {
         "ticker": "SEER3.SA",
         "valor": 4.070000171661377,
         "retorno": 0.5467004999999999,
-        "volume_medio": 392983.3333333333,
-        "desvio_padrao": 0.03953856364106389
+        "volume_medio": 0.39735682819383256,
+        "desvio_padrao": 0.6198536304011855
     },
     {
         "ticker": "BRBI11.SA",
-        "valor": 12.510000228881836,
+        "valor": 12.609999656677246,
         "retorno": 1.4845490000000001,
-        "volume_medio": 544900.0,
-        "desvio_padrao": 0.01780383713179748
+        "volume_medio": 0.11016302151165402,
+        "desvio_padrao": 0.287215208194098
     },
     {
         "ticker": "SOJA3.SA",
-        "valor": 10.489999771118164,
-        "retorno": 0.34028825000000007,
-        "volume_medio": 369711.1111111111,
-        "desvio_padrao": 0.01782848582330307
-    },
-    {
-        "ticker": "BRST3.SA",
-        "valor": 2.430000066757202,
-        "retorno": 0.034931,
-        "volume_medio": 263255.55555555556,
-        "desvio_padrao": 0.03502887878504526
+        "valor": 10.640000343322754,
+        "retorno": 0.34028825,
+        "volume_medio": 0.33000493096646943,
+        "desvio_padrao": 0.3383756189606195
     },
     {
         "ticker": "CASH3.SA",
-        "valor": 2.7799999713897705,
-        "retorno": 0.34054999649524687,
-        "volume_medio": 864094.4444444445,
-        "desvio_padrao": 0.04107257563483442
+        "valor": 2.869999885559082,
+        "retorno": 0.3515749859809875,
+        "volume_medio": 0.5264852335164836,
+        "desvio_padrao": 0.5114427774149647
     },
     {
         "ticker": "ORVR3.SA",
-        "valor": 36.58000183105469,
+        "valor": 36.150001525878906,
         "retorno": 0,
-        "volume_medio": 474205.55555555556,
-        "desvio_padrao": 0.015330627950521892
+        "volume_medio": 0.2706559444970041,
+        "desvio_padrao": 0.2556787505005664
     },
     {
         "ticker": "MATD3.SA",
-        "valor": 3.630000114440918,
+        "valor": 3.559999942779541,
         "retorno": 0.07640933333333333,
-        "volume_medio": 807077.7777777778,
-        "desvio_padrao": 0.028619931029305826
+        "volume_medio": 0.2237984246905642,
+        "desvio_padrao": 0.39090038151463946
     },
     {
         "ticker": "FESA4.SA",
         "valor": 7.5,
-        "retorno": 0.2826634,
-        "volume_medio": 494816.6666666667,
-        "desvio_padrao": 0.021671925527514502
+        "retorno": 0.2814898666666667,
+        "volume_medio": 0.4232976780589617,
+        "desvio_padrao": 0.28198576611930815
     },
     {
         "ticker": "LEVE3.SA",
-        "valor": 26.549999237060547,
-        "retorno": 1.430074625,
-        "volume_medio": 319716.6666666667,
-        "desvio_padrao": 0.0138949476814722
+        "valor": 26.600000381469727,
+        "retorno": 1.447502125,
+        "volume_medio": 0.5410526315789473,
+        "desvio_padrao": 0.2472704594432588
     },
     {
         "ticker": "WIZC3.SA",
-        "valor": 5.190000057220459,
+        "valor": 5.239999771118164,
         "retorno": 0.5995334,
-        "volume_medio": 628588.8888888889,
-        "desvio_padrao": 0.020106155007004276
+        "volume_medio": 0.08935486369268897,
+        "desvio_padrao": 0.33613367154081686
     },
     {
         "ticker": "TRIS3.SA",
-        "valor": 4.389999866485596,
+        "valor": 4.480000019073486,
         "retorno": 0.1205412142857143,
-        "volume_medio": 650000.0,
-        "desvio_padrao": 0.02571412782989383
+        "volume_medio": 0.0883930883930884,
+        "desvio_padrao": 0.3557803376867974
     },
     {
         "ticker": "USIM3.SA",
-        "valor": 4.840000152587891,
-        "retorno": 0.3475997857142857,
-        "volume_medio": 300161.1111111111,
-        "desvio_padrao": 0.018337793624757816
+        "valor": 4.809999942779541,
+        "retorno": 0.338194,
+        "volume_medio": 0.22607150788363312,
+        "desvio_padrao": 0.43792299655967076
     },
     {
         "ticker": "POMO3.SA",
-        "valor": 5.53000020980835,
-        "retorno": 0.11450223529411767,
-        "volume_medio": 334922.22222222225,
-        "desvio_padrao": 0.027387757358663202
+        "valor": 5.760000228881836,
+        "retorno": 0.11363205882352942,
+        "volume_medio": 0.24475028376844493,
+        "desvio_padrao": 0.4032219590430568
     },
     {
         "ticker": "SYNE3.SA",
         "valor": 4.980000019073486,
         "retorno": 0.6100500023365021,
-        "volume_medio": 1226705.5555555555,
-        "desvio_padrao": 0.04083105919401551
+        "volume_medio": 0.13794612163260203,
+        "desvio_padrao": 0.933111989540631
     },
     {
         "ticker": "ITUB3.SA",
-        "valor": 27.290000915527344,
-        "retorno": 0.7413273157894738,
-        "volume_medio": 570788.8888888889,
-        "desvio_padrao": 0.0174514585541721
+        "valor": 27.420000076293945,
+        "retorno": 0.7094517368421053,
+        "volume_medio": 0.18789808917197454,
+        "desvio_padrao": 0.18223792915356077
     },
     {
         "ticker": "JSLG3.SA",
-        "valor": 5.179999828338623,
-        "retorno": 0.37086075,
-        "volume_medio": 450550.0,
-        "desvio_padrao": 0.03739250890868627
+        "valor": 5.309999942779541,
+        "retorno": 0.3461305,
+        "volume_medio": 0.08366642441860464,
+        "desvio_padrao": 0.473989110976297
     },
     {
         "ticker": "TUPY3.SA",
-        "valor": 21.280000686645508,
-        "retorno": 0.6242232352941176,
-        "volume_medio": 938311.1111111111,
-        "desvio_padrao": 0.01716457425694531
+        "valor": 21.1200008392334,
+        "retorno": 0.602890294117647,
+        "volume_medio": 0.1890091427678362,
+        "desvio_padrao": 0.25621793173740953
     },
     {
         "ticker": "ENJU3.SA",
-        "valor": 1.0199999809265137,
+        "valor": 1.0399999618530273,
         "retorno": 0,
-        "volume_medio": 740005.5555555555,
-        "desvio_padrao": 0.07107104458023868
+        "volume_medio": 0.1640403928313821,
+        "desvio_padrao": 0.6865356120348034
     },
     {
         "ticker": "OPCT3.SA",
-        "valor": 4.900000095367432,
+        "valor": 4.880000114440918,
         "retorno": 0,
-        "volume_medio": 513983.3333333333,
-        "desvio_padrao": 0.025489573317470055
+        "volume_medio": 0.23717948717948717,
+        "desvio_padrao": 0.34485232913218167
     },
     {
         "ticker": "LAVV3.SA",
-        "valor": 7.099999904632568,
+        "valor": 7.159999847412109,
         "retorno": 0.58040225,
-        "volume_medio": 830666.6666666666,
-        "desvio_padrao": 0.017210815492013056
+        "volume_medio": 0.08587254346182918,
+        "desvio_padrao": 0.2925882893086292
     },
     {
         "ticker": "PTBL3.SA",
-        "valor": 3.380000114440918,
-        "retorno": 0.23106208333333333,
-        "volume_medio": 452144.44444444444,
-        "desvio_padrao": 0.03148338084015801
+        "valor": 3.2899999618530273,
+        "retorno": 0.22948708333333334,
+        "volume_medio": 0.06433883845564914,
+        "desvio_padrao": 0.5016231571912099
     },
     {
         "ticker": "CLSA3.SA",
-        "valor": 9.9399995803833,
+        "valor": 10.010000228881836,
         "retorno": 0,
-        "volume_medio": 941427.7777777778,
-        "desvio_padrao": 0.0038085348933414027
+        "volume_medio": 0.4174576271186441,
+        "desvio_padrao": 0.6823849463612095
     },
     {
         "ticker": "VLID3.SA",
-        "valor": 22.920000076293945,
-        "retorno": 0.7616130666666667,
-        "volume_medio": 657477.7777777778,
-        "desvio_padrao": 0.059892103918898515
+        "valor": 22.450000762939453,
+        "retorno": 0.7702938666666665,
+        "volume_medio": 0.13454360366474383,
+        "desvio_padrao": 0.4626608415185283
     },
     {
         "ticker": "MELK3.SA",
-        "valor": 3.450000047683716,
+        "valor": 3.5199999809265137,
         "retorno": 0.41532125,
-        "volume_medio": 405594.44444444444,
-        "desvio_padrao": 0.02338263249463218
+        "volume_medio": 0.14072222788942162,
+        "desvio_padrao": 0.3163377521423945
     },
     {
         "ticker": "AZEV3.SA",
-        "valor": 0.9200000166893005,
+        "valor": 0.9300000071525574,
         "retorno": 0.120996,
-        "volume_medio": 759194.4444444445,
-        "desvio_padrao": 0.0817511980581043
+        "volume_medio": 0.11544966541657475,
+        "desvio_padrao": 0.7698625466886826
     },
     {
         "ticker": "FIQE3.SA",
-        "valor": 3.359999895095825,
+        "valor": 3.4000000953674316,
         "retorno": 0.15477225,
-        "volume_medio": 338711.1111111111,
-        "desvio_padrao": 0.020195172588970134
+        "volume_medio": 0.304352068696331,
+        "desvio_padrao": 0.3231078462767041
     },
     {
         "ticker": "LPSB3.SA",
-        "valor": 1.409999966621399,
-        "retorno": 0.111907,
-        "volume_medio": 150111.11111111112,
-        "desvio_padrao": 0.04531202277573696
+        "valor": 1.3700000047683716,
+        "retorno": 0.13363255555555556,
+        "volume_medio": 0.3489847715736041,
+        "desvio_padrao": 0.4813509609502347
     },
     {
         "ticker": "SHUL4.SA",
         "valor": 5.570000171661377,
         "retorno": 0.1180003125,
-        "volume_medio": 320233.3333333333,
-        "desvio_padrao": 0.01420735564712829
+        "volume_medio": 0.4060452929066068,
+        "desvio_padrao": 0.23400607625576111
     },
     {
         "ticker": "HBRE3.SA",
-        "valor": 2.8299999237060547,
+        "valor": 2.9800000190734863,
         "retorno": 0,
-        "volume_medio": 549411.1111111111,
-        "desvio_padrao": 0.04349383030071814
+        "volume_medio": 0.3765199654820742,
+        "desvio_padrao": 0.4945360496003629
     },
     {
         "ticker": "CSED3.SA",
-        "valor": 3.109999895095825,
-        "retorno": 0.159444,
-        "volume_medio": 488672.22222222225,
-        "desvio_padrao": 0.04757923501708454
+        "valor": 3.0999999046325684,
+        "retorno": 0.16638224999999998,
+        "volume_medio": 0.22575136612021857,
+        "desvio_padrao": 0.5372644006181975
     },
     {
         "ticker": "BMGB4.SA",
-        "valor": 3.700000047683716,
-        "retorno": 0.309175,
-        "volume_medio": 354333.3333333333,
-        "desvio_padrao": 0.010721490684960382
+        "valor": 3.6700000762939453,
+        "retorno": 0.30917500000000003,
+        "volume_medio": 0.45458593054318785,
+        "desvio_padrao": 0.3137159540155044
     },
     {
         "ticker": "PRNR3.SA",
-        "valor": 12.970000267028809,
+        "valor": 13.279999732971191,
         "retorno": 0.14148466666666668,
-        "volume_medio": 389822.22222222225,
-        "desvio_padrao": 0.019744117074125978
+        "volume_medio": 0.1537708484408992,
+        "desvio_padrao": 0.38004980384541986
     },
     {
         "ticker": "TFCO4.SA",
-        "valor": 8.4399995803833,
-        "retorno": 0.1732675,
-        "volume_medio": 422377.77777777775,
-        "desvio_padrao": 0.02009910627993262
+        "valor": 8.550000190734863,
+        "retorno": 0.18229425,
+        "volume_medio": 0.10710557022661671,
+        "desvio_padrao": 0.3214044752879133
     },
     {
         "ticker": "PFRM3.SA",
-        "valor": 6.099999904632568,
-        "retorno": 0.22059670000000003,
-        "volume_medio": 240711.11111111112,
-        "desvio_padrao": 0.0230821237414718
+        "valor": 6.03000020980835,
+        "retorno": 0.22059669999999998,
+        "volume_medio": 0.3134048257372654,
+        "desvio_padrao": 0.4020785106601264
     },
     {
         "ticker": "FRAS3.SA",
-        "valor": 20.25,
-        "retorno": 0.2218155882352941,
-        "volume_medio": 198300.0,
-        "desvio_padrao": 0.013236295210861618
+        "valor": 20.200000762939453,
+        "retorno": 0.22181558823529413,
+        "volume_medio": 0.4567598187311178,
+        "desvio_padrao": 0.21904844229204065
     },
     {
         "ticker": "MBLY3.SA",
-        "valor": 1.5399999618530273,
+        "valor": 1.590000033378601,
         "retorno": 0,
-        "volume_medio": 143244.44444444444,
-        "desvio_padrao": 0.04656030212921482
+        "volume_medio": 0.24899251583189408,
+        "desvio_padrao": 0.5540136933655974
     },
     {
         "ticker": "KLBN3.SA",
-        "valor": 4.699999809265137,
+        "valor": 4.619999885559082,
         "retorno": 0.11491605882352941,
-        "volume_medio": 338977.77777777775,
-        "desvio_padrao": 0.0182998877974376
+        "volume_medio": 0.30827685356336,
+        "desvio_padrao": 0.22598466878071674
     },
     {
         "ticker": "AMBP3.SA",
-        "valor": 120.0,
-        "retorno": 0.2604716666666666,
-        "volume_medio": 275377.77777777775,
-        "desvio_padrao": 0.08604864510265334
+        "valor": 122.30000305175781,
+        "retorno": 0.26047166666666666,
+        "volume_medio": 0.05276811981813319,
+        "desvio_padrao": 1.1565304551110969
     },
     {
         "ticker": "AMAR3.SA",
-        "valor": 1.0700000524520874,
-        "retorno": 0.1310750064253807,
-        "volume_medio": 247416.66666666666,
-        "desvio_padrao": 0.052265034138027106
+        "valor": 1.059999942779541,
+        "retorno": 0.12984999299049377,
+        "volume_medio": 0.14363344448561194,
+        "desvio_padrao": 0.5384303982912654
     },
     {
         "ticker": "TAEE4.SA",
-        "valor": 10.819999694824219,
+        "valor": 10.930000305175781,
         "retorno": 0.9552265,
-        "volume_medio": 206850.0,
-        "desvio_padrao": 0.014460176705381257
+        "volume_medio": 0.5671908506075769,
+        "desvio_padrao": 0.12722255588757836
     },
     {
         "ticker": "UNIP6.SA",
-        "valor": 44.47999954223633,
-        "retorno": 2.7151614615384614,
-        "volume_medio": 155983.33333333334,
-        "desvio_padrao": 0.016614469968124743
+        "valor": 45.0099983215332,
+        "retorno": 2.533502615384615,
+        "volume_medio": 0.3684090909090909,
+        "desvio_padrao": 0.2767762456890524
     },
     {
         "ticker": "ROMI3.SA",
-        "valor": 8.479999542236328,
+        "valor": 8.4399995803833,
         "retorno": 0.450201375,
-        "volume_medio": 250211.11111111112,
-        "desvio_padrao": 0.020640974254757687
+        "volume_medio": 0.11485583349245751,
+        "desvio_padrao": 0.24492804601260523
     },
     {
         "ticker": "SAPR3.SA",
-        "valor": 5.039999961853027,
+        "valor": 5.079999923706055,
         "retorno": 0.15079158823529412,
-        "volume_medio": 281961.1111111111,
-        "desvio_padrao": 0.015035751768994444
+        "volume_medio": 0.22314942077361083,
+        "desvio_padrao": 0.26508965392219974
     },
     {
         "ticker": "ETER3.SA",
-        "valor": 4.889999866485596,
-        "retorno": 0.5990249836444854,
-        "volume_medio": 136738.88888888888,
-        "desvio_padrao": 0.02414670099420194
+        "valor": 4.940000057220459,
+        "retorno": 1.0858625,
+        "volume_medio": 0.2485781990521327,
+        "desvio_padrao": 0.44184652482454395
     },
     {
         "ticker": "RSID3.SA",
-        "valor": 2.7899999618530273,
-        "retorno": 0.34177499532699585,
-        "volume_medio": 59527.77777777778,
-        "desvio_padrao": 0.045882912038429965
+        "valor": 2.7300000190734863,
+        "retorno": 0.3344250023365021,
+        "volume_medio": 0.33818181818181814,
+        "desvio_padrao": 0.545154610970332
     },
     {
         "ticker": "AGRO3.SA",
         "valor": 22.1299991607666,
         "retorno": 1.4490390833333333,
-        "volume_medio": 222061.11111111112,
-        "desvio_padrao": 0.010998796647967012
+        "volume_medio": 0.27925774134790526,
+        "desvio_padrao": 0.21708014216112814
     },
     {
         "ticker": "RNEW4.SA",
-        "valor": 0.9300000071525574,
+        "valor": 0.8899999856948853,
         "retorno": 0,
-        "volume_medio": 120827.77777777778,
-        "desvio_padrao": 0.02536346305774373
+        "volume_medio": 0.4594026083298275,
+        "desvio_padrao": 0.4513217308111417
     },
     {
         "ticker": "SEQL3.SA",
-        "valor": 2.630000114440918,
+        "valor": 2.5999999046325684,
         "retorno": 0,
-        "volume_medio": 605777.7777777778,
-        "desvio_padrao": 0.06883987385191541
+        "volume_medio": 0.19624433819828888,
+        "desvio_padrao": 1.2123019374338748
     },
     {
         "ticker": "ESPA3.SA",
         "valor": 0.7099999785423279,
         "retorno": 0.138291,
-        "volume_medio": 278988.8888888889,
-        "desvio_padrao": 0.027597884272152578
+        "volume_medio": 0.17781866845098696,
+        "desvio_padrao": 0.38332836149653565
     },
     {
         "ticker": "LOGG3.SA",
-        "valor": 17.989999771118164,
+        "valor": 18.309999465942383,
         "retorno": 0.8128075,
-        "volume_medio": 243755.55555555556,
-        "desvio_padrao": 0.021344683496819
+        "volume_medio": 0.20689389265885255,
+        "desvio_padrao": 0.2888423966071284
     },
     {
         "ticker": "TASA4.SA",
-        "valor": 8.0,
+        "valor": 8.140000343322754,
         "retorno": 1.0671735714285715,
-        "volume_medio": 280438.8888888889,
-        "desvio_padrao": 0.026682391744103678
+        "volume_medio": 0.375,
+        "desvio_padrao": 0.2773258999492588
     },
     {
         "ticker": "TCSA3.SA",
-        "valor": 1.4199999570846558,
-        "retorno": 0.17394999474287032,
-        "volume_medio": 86544.44444444444,
-        "desvio_padrao": 0.04157030162745405
+        "valor": 1.399999976158142,
+        "retorno": 0.1714999970793724,
+        "volume_medio": 0.3114166168559474,
+        "desvio_padrao": 0.45313233134588604
     },
     {
         "ticker": "PNVL3.SA",
-        "valor": 8.520000457763672,
+        "valor": 8.569999694824219,
         "retorno": 0.12323594117647059,
-        "volume_medio": 284333.3333333333,
-        "desvio_padrao": 0.014229877279619737
+        "volume_medio": 0.43906685236768805,
+        "desvio_padrao": 0.26559734916740635
     },
     {
         "ticker": "BLAU3.SA",
-        "valor": 12.760000228881836,
+        "valor": 12.40999984741211,
         "retorno": 0.5168747499999999,
-        "volume_medio": 241266.66666666666,
-        "desvio_padrao": 0.03309258292005334
+        "volume_medio": 0.17007019783024888,
+        "desvio_padrao": 0.4690089387720345
     },
     {
         "ticker": "VITT3.SA",
-        "valor": 4.989999771118164,
+        "valor": 5.070000171661377,
         "retorno": 0.2742634,
-        "volume_medio": 267877.77777777775,
-        "desvio_padrao": 0.031088669366276148
+        "volume_medio": 0.18734687995388383,
+        "desvio_padrao": 0.40331674547417373
     },
     {
         "ticker": "INEP4.SA",
-        "valor": 1.2899999618530273,
+        "valor": 1.2999999523162842,
         "retorno": 0,
-        "volume_medio": 53205.555555555555,
-        "desvio_padrao": 0.05934799141082683
+        "volume_medio": 0.09418870388508,
+        "desvio_padrao": 0.573200481040578
     },
     {
         "ticker": "ITSA3.SA",
-        "valor": 8.960000038146973,
-        "retorno": 0.29990384210526316,
-        "volume_medio": 152300.0,
-        "desvio_padrao": 0.01682971484604856
+        "valor": 8.9399995803833,
+        "retorno": 0.30012026315789475,
+        "volume_medio": 0.3504290968532897,
+        "desvio_padrao": 0.18288617071725263
     },
     {
         "ticker": "TAEE3.SA",
-        "valor": 10.720000267028809,
-        "retorno": 0.749306875,
-        "volume_medio": 109883.33333333333,
-        "desvio_padrao": 0.017413734310097396
+        "valor": 10.800000190734863,
+        "retorno": 0.7659408750000001,
+        "volume_medio": 0.33743061062648694,
+        "desvio_padrao": 0.13743182930903622
     },
     {
         "ticker": "TGMA3.SA",
-        "valor": 28.0,
-        "retorno": 0.9007737333333333,
-        "volume_medio": 215888.88888888888,
-        "desvio_padrao": 0.02025295468075241
+        "valor": 27.90999984741211,
+        "retorno": 0.9027957999999999,
+        "volume_medio": 0.17451062057476052,
+        "desvio_padrao": 0.24955005789060444
     },
     {
         "ticker": "WEST3.SA",
-        "valor": 0.49000000953674316,
+        "valor": 0.5,
         "retorno": 0,
-        "volume_medio": 64294.444444444445,
-        "desvio_padrao": 0.03632733332227391
+        "volume_medio": 0.06984924623115578,
+        "desvio_padrao": 0.4055133534545806
     },
     {
         "ticker": "LUPA3.SA",
-        "valor": 1.2899999618530273,
+        "valor": 1.2300000190734863,
         "retorno": 0,
-        "volume_medio": 96594.44444444444,
-        "desvio_padrao": 0.03677866047120537
+        "volume_medio": 0.3565121412803532,
+        "desvio_padrao": 0.48088453723076163
     },
     {
         "ticker": "DESK3.SA",
         "valor": 9.979999542236328,
-        "retorno": 0.025279666666666662,
-        "volume_medio": 138244.44444444444,
-        "desvio_padrao": 0.026295715645766684
+        "retorno": 0.02527966666666667,
+        "volume_medio": 0.3063080495356037,
+        "desvio_padrao": 0.4349235007415269
     },
     {
         "ticker": "AGXY3.SA",
         "valor": 0.4399999976158142,
         "retorno": 0.05389999970793724,
-        "volume_medio": 768655.5555555555,
-        "desvio_padrao": 0.09821615535719543
+        "volume_medio": 0.04268567141785447,
+        "desvio_padrao": 1.1668980294067868
     },
     {
         "ticker": "BMOB3.SA",
-        "valor": 13.119999885559082,
+        "valor": 13.289999961853027,
         "retorno": 0.533814,
-        "volume_medio": 231905.55555555556,
-        "desvio_padrao": 0.023756550788834912
+        "volume_medio": 0.4012345679012346,
+        "desvio_padrao": 0.28307969835993035
     },
     {
         "ticker": "ALPK3.SA",
-        "valor": 2.4000000953674316,
+        "valor": 2.450000047683716,
         "retorno": 0,
-        "volume_medio": 141783.33333333334,
-        "desvio_padrao": 0.058846697935138234
+        "volume_medio": 0.3892725598526704,
+        "desvio_padrao": 0.5499135197623474
     },
     {
         "ticker": "GOAU3.SA",
-        "valor": 9.579999923706055,
-        "retorno": 0.6241249999999999,
-        "volume_medio": 50888.88888888889,
-        "desvio_padrao": 0.01908256113080623
+        "valor": 9.510000228881836,
+        "retorno": 0.624125,
+        "volume_medio": 0.1969519343493552,
+        "desvio_padrao": 0.23135883521093317
     },
     {
         "ticker": "SANB3.SA",
-        "valor": 11.4399995803833,
-        "retorno": 1.4013999485969544,
-        "volume_medio": 126894.44444444444,
-        "desvio_padrao": 0.016409304698562114
+        "valor": 11.40999984741211,
+        "retorno": 1.3977249813079833,
+        "volume_medio": 0.29308959421454395,
+        "desvio_padrao": 0.21520912228147912
     },
     {
         "ticker": "DEXP3.SA",
-        "valor": 8.149999618530273,
+        "valor": 8.350000381469727,
         "retorno": 0.2701206666666667,
-        "volume_medio": 80577.77777777778,
-        "desvio_padrao": 0.02530634521234323
+        "volume_medio": 0.18267326732673267,
+        "desvio_padrao": 0.3422257059241757
     },
     {
         "ticker": "CGRA4.SA",
-        "valor": 26.43000030517578,
+        "valor": 27.510000228881836,
         "retorno": 1.436394,
-        "volume_medio": 20044.444444444445,
-        "desvio_padrao": 0.02685285793667266
+        "volume_medio": 0.13030746705710103,
+        "desvio_padrao": 0.2536763998452611
     },
     {
         "ticker": "BRAP3.SA",
-        "valor": 14.75,
-        "retorno": 1.9006245,
-        "volume_medio": 70572.22222222222,
-        "desvio_padrao": 0.009644403732245848
+        "valor": 14.920000076293945,
+        "retorno": 1.770239285714286,
+        "volume_medio": 0.25830258302583026,
+        "desvio_padrao": 0.218001094795682
     },
     {
         "ticker": "AALR3.SA",
-        "valor": 9.6899995803833,
+        "valor": 10.149999618530273,
         "retorno": 0.072036,
-        "volume_medio": 33494.444444444445,
-        "desvio_padrao": 0.057577214588220196
+        "volume_medio": 0.19503219871205152,
+        "desvio_padrao": 0.6483711090393225
     },
     {
         "ticker": "PINE4.SA",
-        "valor": 4.309999942779541,
-        "retorno": 0.3812427,
-        "volume_medio": 194894.44444444444,
-        "desvio_padrao": 0.026705915766737642
+        "valor": 4.289999961853027,
+        "retorno": 0.3860045,
+        "volume_medio": 0.24602215508559921,
+        "desvio_padrao": 0.37739829864031776
     },
     {
         "ticker": "VTRU3.SA",
-        "valor": 6.090000152587891,
+        "valor": 5.820000171661377,
         "retorno": 0,
-        "volume_medio": 102661.11111111111,
-        "desvio_padrao": 0.06118437886150182
+        "volume_medio": 0.30997150997150996,
+        "desvio_padrao": 0.5903422321110661
     },
     {
         "ticker": "CAMB3.SA",
-        "valor": 10.649999618530273,
+        "valor": 10.880000114440918,
         "retorno": 0.31502725,
-        "volume_medio": 33077.77777777778,
-        "desvio_padrao": 0.02091237351864151
+        "volume_medio": 0.2580071174377224,
+        "desvio_padrao": 0.3330579431232373
     },
     {
         "ticker": "TECN3.SA",
-        "valor": 5.449999809265137,
-        "retorno": 0.21053812500000002,
-        "volume_medio": 210177.77777777778,
-        "desvio_padrao": 0.031398282729301265
+        "valor": 5.570000171661377,
+        "retorno": 0.210538125,
+        "volume_medio": 0.08940285003392898,
+        "desvio_padrao": 0.5285842357765108
     },
     {
         "ticker": "VIVR3.SA",
-        "valor": 1.0700000524520874,
+        "valor": 1.0800000429153442,
         "retorno": 0,
-        "volume_medio": 65188.88888888889,
-        "desvio_padrao": 0.024332636433456192
+        "volume_medio": 0.12715355805243445,
+        "desvio_padrao": 0.5351762568548316
     },
     {
         "ticker": "LOGN3.SA",
-        "valor": 19.84000015258789,
+        "valor": 20.190000534057617,
         "retorno": 0.7544390000000001,
-        "volume_medio": 127850.0,
-        "desvio_padrao": 0.02454964066230098
+        "volume_medio": 0.04991170183102518,
+        "desvio_padrao": 0.49273931384049385
     },
     {
         "ticker": "NGRD3.SA",
-        "valor": 19.350000381469727,
-        "retorno": 0.1336455,
-        "volume_medio": 42872.22222222222,
-        "desvio_padrao": 0.036373869790427345
+        "valor": 20.09000015258789,
+        "retorno": 0.17514325,
+        "volume_medio": 0.5006281407035176,
+        "desvio_padrao": 0.49603588122760434
     },
     {
         "ticker": "DMVF3.SA",
-        "valor": 5.46999979019165,
+        "valor": 5.5,
         "retorno": 0,
-        "volume_medio": 66955.55555555556,
-        "desvio_padrao": 0.03919954296392581
+        "volume_medio": 0.4507042253521127,
+        "desvio_padrao": 0.4476078775348957
     },
     {
         "ticker": "ELMD3.SA",
-        "valor": 28.719999313354492,
+        "valor": 28.979999542236328,
         "retorno": 0.02166,
-        "volume_medio": 403433.3333333333,
-        "desvio_padrao": 0.0060994439095689084
+        "volume_medio": 0.041459722185333725,
+        "desvio_padrao": 0.5310824227972869
     },
     {
         "ticker": "GGBR3.SA",
-        "valor": 15.739999771118164,
-        "retorno": 0.5889124705882354,
-        "volume_medio": 55744.444444444445,
-        "desvio_padrao": 0.01673211407642437
+        "valor": 15.75,
+        "retorno": 0.5889124705882353,
+        "volume_medio": 0.1137005649717514,
+        "desvio_padrao": 0.2627223708547165
     },
     {
         "ticker": "SHOW3.SA",
-        "valor": 0.7599999904632568,
+        "valor": 0.75,
         "retorno": 0.1401928,
-        "volume_medio": 93716.66666666667,
-        "desvio_padrao": 0.020581588744138325
+        "volume_medio": 0.2587051142546246,
+        "desvio_padrao": 0.584990507949479
     },
     {
         "ticker": "SANB4.SA",
-        "valor": 12.65999984741211,
-        "retorno": 1.5508499813079835,
-        "volume_medio": 140705.55555555556,
-        "desvio_padrao": 0.02116297812054414
+        "valor": 12.75,
+        "retorno": 1.561875,
+        "volume_medio": 0.3439405487804878,
+        "desvio_padrao": 0.22105488258637943
     },
     {
         "ticker": "TRAD3.SA",
-        "valor": 6.210000038146973,
+        "valor": 6.400000095367432,
         "retorno": 0.001421,
-        "volume_medio": 93033.33333333333,
-        "desvio_padrao": 0.05440326872232536
+        "volume_medio": 0.1540689255719664,
+        "desvio_padrao": 0.8937609519258756
     },
     {
         "ticker": "TPIS3.SA",
-        "valor": 5.119999885559082,
-        "retorno": 0.6715958181818183,
-        "volume_medio": 51094.444444444445,
-        "desvio_padrao": 0.04997336177487658
+        "valor": 5.150000095367432,
+        "retorno": 0.6715958181818181,
+        "volume_medio": 0.197086311159978,
+        "desvio_padrao": 0.5215889474957524
     },
     {
         "ticker": "PDTC3.SA",
-        "valor": 1.149999976158142,
+        "valor": 1.1100000143051147,
         "retorno": 0.046221,
-        "volume_medio": 29122.222222222223,
-        "desvio_padrao": 0.027100727740691583
+        "volume_medio": 0.113160518444666,
+        "desvio_padrao": 0.4561454892322829
     },
     {
         "ticker": "BIOM3.SA",
-        "valor": 9.260000228881836,
+        "valor": 9.180000305175781,
         "retorno": 0,
-        "volume_medio": 146861.11111111112,
-        "desvio_padrao": 0.046818565019276184
+        "volume_medio": 0.04980022831050228,
+        "desvio_padrao": 0.8898773119095535
     },
     {
         "ticker": "RNEW3.SA",
         "valor": 0.8999999761581421,
         "retorno": 0.1102499970793724,
-        "volume_medio": 65511.11111111111,
-        "desvio_padrao": 0.03655122294765662
+        "volume_medio": 0.1818514452982071,
+        "desvio_padrao": 0.43767868038349783
     },
     {
         "ticker": "RAPT3.SA",
-        "valor": 7.75,
+        "valor": 7.690000057220459,
         "retorno": 0.29471625,
-        "volume_medio": 22505.555555555555,
-        "desvio_padrao": 0.023304456153603558
+        "volume_medio": 0.3065693430656934,
+        "desvio_padrao": 0.3063249952093594
     },
     {
         "ticker": "LAND3.SA",
-        "valor": 12.670000076293945,
+        "valor": 12.699999809265137,
         "retorno": 0.548772,
-        "volume_medio": 50133.333333333336,
-        "desvio_padrao": 0.02615754885816691
+        "volume_medio": 0.02979122683556181,
+        "desvio_padrao": 0.42923258436695566
     },
     {
         "ticker": "DOTZ3.SA",
-        "valor": 3.109999895095825,
+        "valor": 3.200000047683716,
         "retorno": 0,
-        "volume_medio": 25022.222222222223,
-        "desvio_padrao": 0.07739841767879314
+        "volume_medio": 0.16558966074313408,
+        "desvio_padrao": 0.7690313599706627
     },
     {
         "ticker": "ALLD3.SA",
-        "valor": 6.650000095367432,
-        "retorno": 1.2553305,
-        "volume_medio": 46777.77777777778,
-        "desvio_padrao": 0.024592398546732838
+        "valor": 6.699999809265137,
+        "retorno": 1.254552,
+        "volume_medio": 0.18091168091168092,
+        "desvio_padrao": 0.40484302722667914
     },
     {
         "ticker": "SCAR3.SA",
-        "valor": 16.049999237060547,
+        "valor": 15.949999809265137,
         "retorno": 0.7093593333333333,
-        "volume_medio": 91572.22222222222,
-        "desvio_padrao": 0.030031667649030327
+        "volume_medio": 0.1723689103756043,
+        "desvio_padrao": 0.3501734121406728
     },
     {
         "ticker": "EUCA4.SA",
-        "valor": 13.199999809265137,
+        "valor": 13.279999732971191,
         "retorno": 0.31809676923076924,
-        "volume_medio": 45850.0,
-        "desvio_padrao": 0.021583490393887267
+        "volume_medio": 0.4206989247311828,
+        "desvio_padrao": 0.3340849700116506
     },
     {
         "ticker": "KRSA3.SA",
-        "valor": 8.239999771118164,
+        "valor": 8.170000076293945,
         "retorno": 0,
-        "volume_medio": 170538.88888888888,
-        "desvio_padrao": 0.03164866970374024
+        "volume_medio": 0.07275563749822721,
+        "desvio_padrao": 0.5826464692948311
     },
     {
         "ticker": "FHER3.SA",
-        "valor": 5.360000133514404,
+        "valor": 5.340000152587891,
         "retorno": 0.185,
-        "volume_medio": 72566.66666666667,
-        "desvio_padrao": 0.05176736926302354
+        "volume_medio": 0.14614086883171656,
+        "desvio_padrao": 1.0947878024603837
     },
     {
         "ticker": "BOBR4.SA",
-        "valor": 1.9299999475479126,
+        "valor": 1.899999976158142,
         "retorno": 0,
-        "volume_medio": 44538.88888888889,
-        "desvio_padrao": 0.03472052209934538
+        "volume_medio": 0.22247191011235956,
+        "desvio_padrao": 0.3704813106638763
     },
     {
         "ticker": "CSUD3.SA",
-        "valor": 15.300000190734863,
+        "valor": 15.869999885559082,
         "retorno": 0.4706715714285714,
-        "volume_medio": 47650.0,
-        "desvio_padrao": 0.018262811182151804
+        "volume_medio": 0.2857142857142857,
+        "desvio_padrao": 0.2916115858874366
     },
     {
         "ticker": "JFEN3.SA",
-        "valor": 2.5299999713897705,
-        "retorno": 0.3099249964952469,
-        "volume_medio": 52794.444444444445,
-        "desvio_padrao": 0.06206638609721703
+        "valor": 2.630000114440918,
+        "retorno": 0.32217501401901244,
+        "volume_medio": 0.059347679892400806,
+        "desvio_padrao": 1.4143751641378008
     },
     {
         "ticker": "MNPR3.SA",
-        "valor": 24.989999771118164,
+        "valor": 24.889999389648438,
         "retorno": 0,
-        "volume_medio": 2550.0,
-        "desvio_padrao": 0.02746222776495601
+        "volume_medio": 0.11146496815286625,
+        "desvio_padrao": 0.6656196607425998
     },
     {
         "ticker": "IGTI3.SA",
-        "valor": 2.009999990463257,
+        "valor": 2.0399999618530273,
         "retorno": 0.06510842857142858,
-        "volume_medio": 46772.22222222222,
-        "desvio_padrao": 0.016832378406582582
+        "volume_medio": 0.23093777388255915,
+        "desvio_padrao": 0.290455128130514
     },
     {
         "ticker": "IGTI3.SA",
-        "valor": 2.009999990463257,
+        "valor": 2.0399999618530273,
         "retorno": 0.06510842857142858,
-        "volume_medio": 46772.22222222222,
-        "desvio_padrao": 0.016832378406582582
+        "volume_medio": 0.23093777388255915,
+        "desvio_padrao": 0.290455128130514
     },
     {
         "ticker": "BRKM3.SA",
-        "valor": 11.5600004196167,
+        "valor": 11.699999809265137,
         "retorno": 1.8838266363636365,
-        "volume_medio": 17288.88888888889,
-        "desvio_padrao": 0.023963148824720334
+        "volume_medio": 0.16569200779727095,
+        "desvio_padrao": 0.4054885832329554
     },
     {
         "ticker": "OFSA3.SA",
-        "valor": 16.229999542236328,
+        "valor": 16.350000381469727,
         "retorno": 0.4023085,
-        "volume_medio": 12000.0,
-        "desvio_padrao": 0.0417854150408889
+        "volume_medio": 0.24533333333333332,
+        "desvio_padrao": 0.33890072543094657
     },
     {
         "ticker": "UCAS3.SA",
-        "valor": 1.7899999618530273,
-        "retorno": 0.23954399999999998,
-        "volume_medio": 39705.555555555555,
-        "desvio_padrao": 0.01957209062764311
+        "valor": 1.809999942779541,
+        "retorno": 0.2404731,
+        "volume_medio": 0.3141935483870968,
+        "desvio_padrao": 0.3105577871764061
     },
     {
         "ticker": "WHRL4.SA",
-        "valor": 4.159999847412109,
-        "retorno": 0.44175942857142864,
-        "volume_medio": 10994.444444444445,
-        "desvio_padrao": 0.017124150217906576
+        "valor": 4.340000152587891,
+        "retorno": 0.4417594285714285,
+        "volume_medio": 0.1266490765171504,
+        "desvio_padrao": 0.21758189513368023
     },
     {
         "ticker": "PINE3.SA",
-        "valor": 4.25,
-        "retorno": 0.30888985714285716,
-        "volume_medio": 4350.0,
-        "desvio_padrao": 0.05264572007849237
+        "valor": 4.199999809265137,
+        "retorno": 0.307305,
+        "volume_medio": 0.26587301587301587,
+        "desvio_padrao": 1.013181359543512
     },
     {
         "ticker": "COCE5.SA",
-        "valor": 24.450000762939453,
-        "retorno": 1.9774855999999998,
-        "volume_medio": 20588.88888888889,
-        "desvio_padrao": 0.015758942365157364
+        "valor": 24.43000030517578,
+        "retorno": 1.9774856,
+        "volume_medio": 0.08676207513416816,
+        "desvio_padrao": 0.3060007986588143
     },
     {
         "ticker": "BMEB4.SA",
-        "valor": 37.79999923706055,
+        "valor": 37.63999938964844,
         "retorno": 0.6213259333333333,
-        "volume_medio": 20788.88888888889,
-        "desvio_padrao": 0.02074458712361388
+        "volume_medio": 0.2422680412371134,
+        "desvio_padrao": 0.5337196707534044
     },
     {
         "ticker": "OIBR4.SA",
-        "valor": 8.600000381469727,
-        "retorno": 1.0535000467300415,
-        "volume_medio": 18738.88888888889,
-        "desvio_padrao": 0.027922434998921507
+        "valor": 8.399999618530273,
+        "retorno": 1.0289999532699585,
+        "volume_medio": 0.46112600536193027,
+        "desvio_padrao": 1.568679220313985
     },
     {
         "ticker": "VSTE3.SA",
-        "valor": 6.860000133514404,
-        "retorno": 0.43032388888888895,
-        "volume_medio": 84583.33333333333,
-        "desvio_padrao": 0.07994755244828024
+        "valor": 6.710000038146973,
+        "retorno": 0.4303238888888889,
+        "volume_medio": 0.11411968348170129,
+        "desvio_padrao": 0.5068241303055652
     },
     {
         "ticker": "TASA3.SA",
-        "valor": 8.199999809265137,
+        "valor": 8.25,
         "retorno": 0.8371306666666667,
-        "volume_medio": 8805.555555555555,
-        "desvio_padrao": 0.023447117072644377
+        "volume_medio": 0.30451127819548873,
+        "desvio_padrao": 0.23735963813345531
     },
     {
         "ticker": "LVTC3.SA",
-        "valor": 2.2799999713897705,
+        "valor": 2.3399999141693115,
         "retorno": 0.0937895,
-        "volume_medio": 33327.77777777778,
-        "desvio_padrao": 0.02464010326361511
+        "volume_medio": 0.4051383399209486,
+        "desvio_padrao": 0.3885391338997105
     },
     {
         "ticker": "INEP3.SA",
         "valor": 1.3600000143051147,
         "retorno": 0.16660000175237655,
-        "volume_medio": 48616.666666666664,
-        "desvio_padrao": 0.048831947644968225
+        "volume_medio": 0.0634765625,
+        "desvio_padrao": 0.5404685921056449
     },
     {
         "ticker": "CEBR6.SA",
-        "valor": 16.8799991607666,
-        "retorno": 2.0677998971939084,
-        "volume_medio": 7877.777777777777,
-        "desvio_padrao": 0.010892719781838261
+        "valor": 16.899999618530273,
+        "retorno": 3.5934329999999997,
+        "volume_medio": 0.14459930313588848,
+        "desvio_padrao": 0.321171850187589
     },
     {
         "ticker": "DEXP4.SA",
-        "valor": 8.199999809265137,
+        "valor": 8.319999694824219,
         "retorno": 0.48285975000000003,
-        "volume_medio": 3211.1111111111113,
-        "desvio_padrao": 0.013687696080948561
+        "volume_medio": 0.39743589743589747,
+        "desvio_padrao": 0.3180561395751743
     },
     {
         "ticker": "ALUP4.SA",
-        "valor": 8.8100004196167,
+        "valor": 9.0600004196167,
         "retorno": 0.302004,
-        "volume_medio": 13111.111111111111,
-        "desvio_padrao": 0.01503313421077875
+        "volume_medio": 0.31118881118881114,
+        "desvio_padrao": 0.2024115539181376
     },
     {
         "ticker": "EPAR3.SA",
-        "valor": 5.449999809265137,
-        "retorno": 0.6676249766349792,
-        "volume_medio": 22655.555555555555,
-        "desvio_padrao": 0.04979747087157433
+        "valor": 5.300000190734863,
+        "retorno": 0.6492500233650207,
+        "volume_medio": 0.10363457760314343,
+        "desvio_padrao": 0.46405892886795264
     },
     {
         "ticker": "ENGI3.SA",
-        "valor": 9.770000457763672,
+        "valor": 10.09000015258789,
         "retorno": 0.19141964705882353,
-        "volume_medio": 8733.333333333334,
-        "desvio_padrao": 0.026548909311181916
+        "volume_medio": 0.058319039451114926,
+        "desvio_padrao": 0.3727795523739889
     },
     {
         "ticker": "CLSC4.SA",
-        "valor": 77.79000091552734,
+        "valor": 79.37000274658203,
         "retorno": 2.840784181818182,
-        "volume_medio": 5127.777777777777,
-        "desvio_padrao": 0.020514490493208127
+        "volume_medio": 0.17045454545454544,
+        "desvio_padrao": 0.22548311991715983
     },
     {
         "ticker": "NUTR3.SA",
-        "valor": 3.990000009536743,
+        "valor": 3.9600000381469727,
         "retorno": 0,
-        "volume_medio": 3972.222222222222,
-        "desvio_padrao": 0.02828212008276127
+        "volume_medio": 0.1793478260869565,
+        "desvio_padrao": 0.5798213239471232
     },
     {
         "ticker": "ENGI4.SA",
-        "valor": 6.599999904632568,
+        "valor": 6.570000171661377,
         "retorno": 0.21165306250000002,
-        "volume_medio": 10933.333333333334,
-        "desvio_padrao": 0.026142842555632723
+        "volume_medio": 0.18070652173913043,
+        "desvio_padrao": 0.3068985070841863
     },
     {
         "ticker": "BEES3.SA",
-        "valor": 8.300000190734863,
-        "retorno": 0.25977658823529415,
-        "volume_medio": 11111.111111111111,
-        "desvio_padrao": 0.01681930392079179
+        "valor": 8.239999771118164,
+        "retorno": 0.26118276470588236,
+        "volume_medio": 0.39622641509433965,
+        "desvio_padrao": 0.16391336020779912
     },
     {
         "ticker": "GSHP3.SA",
         "valor": 6.0,
         "retorno": 0.735,
-        "volume_medio": 222.22222222222223,
-        "desvio_padrao": 0.019000494613158354
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.2926550067247695
     },
     {
         "ticker": "TELB3.SA",
-        "valor": 12.6899995803833,
+        "valor": 12.0,
         "retorno": 0,
-        "volume_medio": 1044.4444444444443,
-        "desvio_padrao": 0.0288038259338784
+        "volume_medio": 0.12222222222222222,
+        "desvio_padrao": 0.36279788271214103
     },
     {
         "ticker": "MWET4.SA",
         "valor": 11.15999984741211,
         "retorno": 0,
-        "volume_medio": 588.8888888888889,
-        "desvio_padrao": 0.059826847708707484
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.8741372256573721
     },
     {
         "ticker": "BRSR3.SA",
-        "valor": 11.039999961853027,
+        "valor": 11.210000038146973,
         "retorno": 0.7742238888888889,
-        "volume_medio": 6383.333333333333,
-        "desvio_padrao": 0.016980269209234504
+        "volume_medio": 0.1994219653179191,
+        "desvio_padrao": 0.2493489067936946
     },
     {
         "ticker": "ALUP3.SA",
-        "valor": 9.199999809265137,
+        "valor": 9.369999885559082,
         "retorno": 0.302004,
-        "volume_medio": 6816.666666666667,
-        "desvio_padrao": 0.013486845302855299
+        "volume_medio": 0.18867924528301888,
+        "desvio_padrao": 0.24462304706073318
     },
     {
         "ticker": "BEES4.SA",
-        "valor": 8.369999885559082,
-        "retorno": 0.26408887500000006,
-        "volume_medio": 2605.5555555555557,
-        "desvio_padrao": 0.014203037306334787
+        "valor": 8.380000114440918,
+        "retorno": 0.26186281250000004,
+        "volume_medio": 0.47916666666666663,
+        "desvio_padrao": 0.1951265537353463
     },
     {
         "ticker": "EQPA3.SA",
-        "valor": 5.21999979019165,
+        "valor": 5.309999942779541,
         "retorno": 0.24540427272727275,
-        "volume_medio": 4922.222222222223,
-        "desvio_padrao": 0.014250083184499863
+        "volume_medio": 0.12368421052631579,
+        "desvio_padrao": 0.34476709546583845
     },
     {
         "ticker": "BPAC3.SA",
-        "valor": 14.220000267028809,
-        "retorno": 0.15592988888888887,
-        "volume_medio": 3155.5555555555557,
-        "desvio_padrao": 0.03390699980058204
+        "valor": 14.699999809265137,
+        "retorno": 0.1559298888888889,
+        "volume_medio": 0.13257575757575757,
+        "desvio_padrao": 0.3412223555644316
     },
     {
         "ticker": "PTNT3.SA",
-        "valor": 7.570000171661377,
-        "retorno": 0.16810892857142856,
-        "volume_medio": 1350.0,
-        "desvio_padrao": 0.029715760647792213
+        "valor": 7.599999904632568,
+        "retorno": 0.1666097857142857,
+        "volume_medio": 0.07936507936507936,
+        "desvio_padrao": 0.41913469670027936
     },
     {
         "ticker": "WHRL3.SA",
-        "valor": 3.940000057220459,
-        "retorno": 0.4069948823529412,
-        "volume_medio": 3405.5555555555557,
-        "desvio_padrao": 0.012003355667966809
+        "valor": 3.9000000953674316,
+        "retorno": 0.419009,
+        "volume_medio": 0.2604166666666667,
+        "desvio_padrao": 0.2792971353761272
     },
     {
         "ticker": "TKNO4.SA",
-        "valor": 59.75,
-        "retorno": 4.458628272727274,
-        "volume_medio": 716.6666666666666,
-        "desvio_padrao": 0.07533365213923633
+        "valor": 61.709999084472656,
+        "retorno": 4.697230363636364,
+        "volume_medio": 0.006993006993006993,
+        "desvio_padrao": 0.48863248892459393
     },
     {
         "ticker": "EALT4.SA",
-        "valor": 13.119999885559082,
-        "retorno": 0.14246791666666667,
-        "volume_medio": 10577.777777777777,
-        "desvio_padrao": 0.02091928389340641
+        "valor": 13.149999618530273,
+        "retorno": 0.14703041666666666,
+        "volume_medio": 0.2199248120300752,
+        "desvio_padrao": 0.4119066144813868
     },
     {
         "ticker": "UNIP3.SA",
-        "valor": 44.25,
-        "retorno": 2.1671025,
-        "volume_medio": 5900.0,
-        "desvio_padrao": 0.019967803381421702
-    },
-    {
-        "ticker": "ISAE3.SA",
-        "valor": 31.200000762939453,
-        "retorno": 0.668903,
-        "volume_medio": 5477.777777777777,
-        "desvio_padrao": 0.013137629398074786
+        "valor": 44.630001068115234,
+        "retorno": 2.115846,
+        "volume_medio": 0.2372262773722628,
+        "desvio_padrao": 0.2503408959357624
     },
     {
         "ticker": "ALPA3.SA",
-        "valor": 5.840000152587891,
+        "valor": 5.900000095367432,
         "retorno": 0.17452060000000003,
-        "volume_medio": 6944.444444444444,
-        "desvio_padrao": 0.03335511199823637
+        "volume_medio": 0.18981481481481483,
+        "desvio_padrao": 0.4175809623621465
     },
     {
         "ticker": "RNEW11.SA",
-        "valor": 2.7899999618530273,
+        "valor": 2.740000009536743,
         "retorno": 0.273501,
-        "volume_medio": 5011.111111111111,
-        "desvio_padrao": 0.035811767429184196
+        "volume_medio": 0.38372093023255816,
+        "desvio_padrao": 0.4866079923949647
+    },
+    {
+        "ticker": "RPAD3.SA",
+        "valor": 5.349999904632568,
+        "retorno": 0.014749888888888889,
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.39051428879941236
     },
     {
         "ticker": "NEXP3.SA",
         "valor": 3.8499999046325684,
         "retorno": 0.4716249883174896,
-        "volume_medio": 1111.111111111111,
-        "desvio_padrao": 0.031040711314317338
+        "volume_medio": 0.42,
+        "desvio_padrao": 0.35156021547226246
+    },
+    {
+        "ticker": "WLMM4.SA",
+        "valor": 29.010000228881836,
+        "retorno": 0.6247762307692307,
+        "volume_medio": 0.32608695652173914,
+        "desvio_padrao": 0.3565422542941778
     },
     {
         "ticker": "TELB4.SA",
-        "valor": 6.849999904632568,
+        "valor": 7.139999866485596,
         "retorno": 0,
-        "volume_medio": 3227.777777777778,
-        "desvio_padrao": 0.015549716549757727
+        "volume_medio": 0.23563218390804597,
+        "desvio_padrao": 0.33968879159561755
     },
     {
         "ticker": "REDE3.SA",
         "valor": 6.28000020980835,
-        "retorno": 0.3813087777777777,
-        "volume_medio": 1611.111111111111,
-        "desvio_padrao": 0.009738894258337936
+        "retorno": 0.3813087777777778,
+        "volume_medio": 0.1875,
+        "desvio_padrao": 0.2030943782080364
+    },
+    {
+        "ticker": "GEPA4.SA",
+        "valor": 28.530000686645508,
+        "retorno": 3.3878426666666663,
+        "volume_medio": 0.028169014084507043,
+        "desvio_padrao": 0.22746679899478447
     },
     {
         "ticker": "MGEL4.SA",
         "valor": 7.0,
         "retorno": 0.975001,
-        "volume_medio": 788.8888888888889,
-        "desvio_padrao": 0.07097604356595369
+        "volume_medio": 0.17647058823529413,
+        "desvio_padrao": 0.5988254240091523
     },
     {
         "ticker": "CGRA3.SA",
-        "valor": 27.020000457763672,
+        "valor": 27.329999923706055,
         "retorno": 1.3266145625,
-        "volume_medio": 4666.666666666667,
-        "desvio_padrao": 0.024029839334119972
+        "volume_medio": 0.11090225563909774,
+        "desvio_padrao": 0.24817381006388706
     },
     {
         "ticker": "HOOT4.SA",
         "valor": 2.309999942779541,
         "retorno": 0,
-        "volume_medio": 1066.6666666666667,
-        "desvio_padrao": 0.015813475586434225
+        "volume_medio": 0.06756756756756757,
+        "desvio_padrao": 0.36676201772557415
     },
     {
         "ticker": "HAGA4.SA",
-        "valor": 1.1399999856948853,
+        "valor": 1.159999966621399,
         "retorno": 0,
-        "volume_medio": 7972.222222222223,
-        "desvio_padrao": 0.03593943703568245
+        "volume_medio": 0.045323741007194246,
+        "desvio_padrao": 0.38337202194623493
     },
     {
         "ticker": "RDNI3.SA",
-        "valor": 2.2100000381469727,
-        "retorno": 0.32811759999999995,
-        "volume_medio": 5588.888888888889,
-        "desvio_padrao": 0.02285808734071342
+        "valor": 2.259999990463257,
+        "retorno": 0.3281176,
+        "volume_medio": 0.15137614678899083,
+        "desvio_padrao": 0.2836679400184977
     },
     {
         "ticker": "CTSA4.SA",
         "valor": 0.8700000047683716,
         "retorno": 0.10657500058412551,
-        "volume_medio": 6138.888888888889,
-        "desvio_padrao": 0.05085241658517251
+        "volume_medio": 0.10043668122270742,
+        "desvio_padrao": 0.8837047021361275
     },
     {
         "ticker": "CEBR5.SA",
-        "valor": 15.4399995803833,
-        "retorno": 1.8913999485969544,
-        "volume_medio": 1494.4444444444443,
-        "desvio_padrao": 0.013092867199089218
+        "valor": 15.470000267028809,
+        "retorno": 1.895075032711029,
+        "volume_medio": 0.19565217391304346,
+        "desvio_padrao": 0.2426369568614258
     },
     {
         "ticker": "BRKM6.SA",
         "valor": 7.0,
         "retorno": 0.762686,
-        "volume_medio": 355.55555555555554,
-        "desvio_padrao": 0.04985685546281211
+        "volume_medio": 0.022222222222222223,
+        "desvio_padrao": 0.43593904610065715
     },
     {
         "ticker": "BPAC5.SA",
-        "valor": 7.199999809265137,
-        "retorno": 0.15719199999999997,
-        "volume_medio": 4811.111111111111,
-        "desvio_padrao": 0.03693181933301193
+        "valor": 7.070000171661377,
+        "retorno": 0.157192,
+        "volume_medio": 0.16844919786096257,
+        "desvio_padrao": 0.3644129384470124
     },
     {
         "ticker": "CEBR3.SA",
-        "valor": 15.869999885559082,
-        "retorno": 1.9440749859809876,
-        "volume_medio": 3377.777777777778,
-        "desvio_padrao": 0.013041988579262363
+        "valor": 15.699999809265137,
+        "retorno": 3.241481888888889,
+        "volume_medio": 0.34375,
+        "desvio_padrao": 0.3622063727278823
     },
     {
         "ticker": "EUCA3.SA",
-        "valor": 14.5600004196167,
-        "retorno": 0.2762685384615384,
-        "volume_medio": 394.44444444444446,
-        "desvio_padrao": 0.02837983372513641
+        "valor": 15.199999809265137,
+        "retorno": 0.2762685384615385,
+        "volume_medio": 0.07894736842105263,
+        "desvio_padrao": 0.3573512796450722
     },
     {
         "ticker": "IGTI4.SA",
-        "valor": 7.289999961853027,
+        "valor": 7.53000020980835,
         "retorno": 0.2030565,
-        "volume_medio": 111.11111111111111,
-        "desvio_padrao": 0.035327765007643536
+        "volume_medio": 0.14285714285714285,
+        "desvio_padrao": 0.3722220052587383
     },
     {
         "ticker": "IGTI4.SA",
-        "valor": 7.289999961853027,
+        "valor": 7.53000020980835,
         "retorno": 0.2030565,
-        "volume_medio": 111.11111111111111,
-        "desvio_padrao": 0.035327765007643536
+        "volume_medio": 0.14285714285714285,
+        "desvio_padrao": 0.3722220052587383
     },
     {
         "ticker": "MTSA4.SA",
-        "valor": 36.70000076293945,
+        "valor": 37.279998779296875,
         "retorno": 1.2846600000000001,
-        "volume_medio": 1622.2222222222222,
-        "desvio_padrao": 0.021525507978440873
+        "volume_medio": 0.225,
+        "desvio_padrao": 0.31347896592166963
     },
     {
         "ticker": "FRIO3.SA",
-        "valor": 300.010009765625,
-        "retorno": 8.435308500000001,
-        "volume_medio": 3827.777777777778,
-        "desvio_padrao": 0.09401440798120579
+        "valor": 305.0,
+        "retorno": 8.4353085,
+        "volume_medio": 0.027851458885941646,
+        "desvio_padrao": 1.2241312899885555
+    },
+    {
+        "ticker": "MNDL3.SA",
+        "valor": 16.5,
+        "retorno": 0.5382036,
+        "volume_medio": 0.027131782945736434,
+        "desvio_padrao": 0.5834000399299003
+    },
+    {
+        "ticker": "BSLI3.SA",
+        "valor": 7.880000114440918,
+        "retorno": 0.2318561875,
+        "volume_medio": 0.038461538461538464,
+        "desvio_padrao": 0.47798047760470835
     },
     {
         "ticker": "CTKA4.SA",
-        "valor": 21.110000610351562,
+        "valor": 21.729999542236328,
         "retorno": 2.01919,
-        "volume_medio": 250.0,
-        "desvio_padrao": 0.03201834540240177
+        "volume_medio": 0.019230769230769232,
+        "desvio_padrao": 0.6053755819540176
     },
     {
         "ticker": "UNIP5.SA",
-        "valor": 50.79999923706055,
-        "retorno": 2.6668262307692308,
-        "volume_medio": 288.8888888888889,
-        "desvio_padrao": 0.03464211805310179
+        "valor": 48.880001068115234,
+        "retorno": 2.600947384615384,
+        "volume_medio": 0.41666666666666663,
+        "desvio_padrao": 0.39050668359218904
     },
     {
         "ticker": "EMAE4.SA",
-        "valor": 39.099998474121094,
+        "valor": 37.88999938964844,
         "retorno": 1.52644025,
-        "volume_medio": 2416.6666666666665,
-        "desvio_padrao": 0.02803967519388455
+        "volume_medio": 0.1062992125984252,
+        "desvio_padrao": 0.4878768051433233
     },
     {
         "ticker": "CPLE5.SA",
         "valor": 10.390000343322754,
-        "retorno": 0.4059610666666667,
-        "volume_medio": 288.8888888888889,
-        "desvio_padrao": 0.04451503303405059
+        "retorno": 0.40596106666666665,
+        "volume_medio": 0.3333333333333333,
+        "desvio_padrao": 0.5171952975491287
     },
     {
         "ticker": "PTNT4.SA",
         "valor": 5.619999885559082,
-        "retorno": 0.1796845,
-        "volume_medio": 5538.888888888889,
-        "desvio_padrao": 0.020777348464897295
+        "retorno": 0.1779355,
+        "volume_medio": 0.2344632768361582,
+        "desvio_padrao": 0.3323937558048772
     },
     {
         "ticker": "RPMG3.SA",
-        "valor": 2.75,
+        "valor": 2.7200000286102295,
         "retorno": 0,
-        "volume_medio": 10200.0,
-        "desvio_padrao": 0.03270024130361749
+        "volume_medio": 0.1228813559322034,
+        "desvio_padrao": 0.5162574449378622
     },
     {
         "ticker": "ATMP3.SA",
         "valor": 1.1100000143051147,
         "retorno": 0.13597500175237656,
-        "volume_medio": 7144.444444444444,
-        "desvio_padrao": 0.054785404750945156
+        "volume_medio": 0.054375,
+        "desvio_padrao": 0.5576988090542508
     },
     {
         "ticker": "CGAS5.SA",
-        "valor": 124.0,
-        "retorno": 7.908572866666669,
-        "volume_medio": 1661.111111111111,
-        "desvio_padrao": 0.018173125760132084
+        "valor": 121.41999816894531,
+        "retorno": 8.175851933333332,
+        "volume_medio": 0.3214285714285714,
+        "desvio_padrao": 0.3512033377266969
     },
     {
         "ticker": "BAZA3.SA",
-        "valor": 85.19999694824219,
+        "valor": 84.73999786376953,
         "retorno": 3.0136086,
-        "volume_medio": 2483.3333333333335,
-        "desvio_padrao": 0.00916773051565113
+        "volume_medio": 0.1523809523809524,
+        "desvio_padrao": 0.2514241448228999
     },
     {
         "ticker": "RSUL4.SA",
         "valor": 54.95000076293945,
         "retorno": 2.341153333333333,
-        "volume_medio": 394.44444444444446,
-        "desvio_padrao": 0.01936091888212915
+        "volume_medio": 0.13333333333333333,
+        "desvio_padrao": 0.2866298333280167
     },
     {
         "ticker": "EKTR4.SA",
         "valor": 51.0,
-        "retorno": 2.505431857142857,
-        "volume_medio": 455.55555555555554,
-        "desvio_padrao": 0.04190271976174752
+        "retorno": 2.848592857142857,
+        "volume_medio": 0.07692307692307693,
+        "desvio_padrao": 0.404412644456306
     },
     {
         "ticker": "BGIP3.SA",
         "valor": 24.219999313354492,
-        "retorno": 1.493972176470588,
-        "volume_medio": 83.33333333333333,
-        "desvio_padrao": 0.007079079892908267
+        "retorno": 1.5467970588235294,
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.38957564474768835
     },
     {
         "ticker": "BGIP4.SA",
         "valor": 23.5,
-        "retorno": 1.8414427333333332,
-        "volume_medio": 972.2222222222222,
-        "desvio_padrao": 0.01737997791735302
+        "retorno": 1.7883804666666667,
+        "volume_medio": 0.07462686567164178,
+        "desvio_padrao": 0.328536265131406
     },
     {
         "ticker": "CRPG5.SA",
-        "valor": 19.700000762939453,
+        "valor": 19.600000381469727,
         "retorno": 1.5816352857142857,
-        "volume_medio": 1255.5555555555557,
-        "desvio_padrao": 0.013041767365641407
+        "volume_medio": 0.45454545454545453,
+        "desvio_padrao": 0.20685603848818107
     },
     {
         "ticker": "FESA3.SA",
         "valor": 12.989999771118164,
-        "retorno": 0.2305699411764706,
-        "volume_medio": 438.8888888888889,
-        "desvio_padrao": 0.04491728806766079
+        "retorno": 0.23548658823529411,
+        "volume_medio": 0.022727272727272728,
+        "desvio_padrao": 0.40158837225782507
     },
     {
         "ticker": "PPLA11.SA",
-        "valor": 1.25,
-        "retorno": 0.153125,
-        "volume_medio": 581.3333333333334,
-        "desvio_padrao": 0.06504664970101405
+        "valor": 1.149999976158142,
+        "retorno": 0.1408749970793724,
+        "volume_medio": 0.09706959706959707,
+        "desvio_padrao": 0.6846179690211962
     },
     {
         "ticker": "EALT3.SA",
         "valor": 13.029999732971191,
-        "retorno": 0.11412916666666666,
-        "volume_medio": 1033.3333333333333,
-        "desvio_padrao": 0.02596795354177119
+        "retorno": 0.11412916666666667,
+        "volume_medio": 0.054945054945054944,
+        "desvio_padrao": 0.4583366299488863
     },
     {
         "ticker": "EQMA3B.SA",
         "valor": 24.0,
         "retorno": 1.8764719285714286,
-        "volume_medio": 688.8888888888889,
-        "desvio_padrao": 0.008213469394903718
+        "volume_medio": 0.3333333333333333,
+        "desvio_padrao": 0.26255077999438386
     },
     {
         "ticker": "BALM4.SA",
         "valor": 11.34000015258789,
         "retorno": 0.28078685714285717,
-        "volume_medio": 1300.0,
-        "desvio_padrao": 0.05413783158778052
+        "volume_medio": 0.08333333333333333,
+        "desvio_padrao": 0.3742095277835948
     },
     {
         "ticker": "HAGA3.SA",
-        "valor": 2.190000057220459,
+        "valor": 2.0,
         "retorno": 0,
-        "volume_medio": 1500.0,
-        "desvio_padrao": 0.0555413183798492
+        "volume_medio": 0.10126582278481013,
+        "desvio_padrao": 0.5088695638261516
     },
     {
         "ticker": "CEEB3.SA",
         "valor": 38.0,
-        "retorno": 2.3144575294117646,
-        "volume_medio": 305.55555555555554,
-        "desvio_padrao": 0.010483696342227457
+        "retorno": 2.480004705882353,
+        "volume_medio": 0.15384615384615385,
+        "desvio_padrao": 0.17919563856499257
     },
     {
         "ticker": "OSXB3.SA",
-        "valor": 3.559999942779541,
+        "valor": 3.690000057220459,
         "retorno": 0,
-        "volume_medio": 2783.3333333333335,
-        "desvio_padrao": 0.04899543024842625
+        "volume_medio": 0.1732283464566929,
+        "desvio_padrao": 0.9881570793242914
     },
     {
         "ticker": "SNSY5.SA",
-        "valor": 3.5199999809265137,
+        "valor": 3.6500000953674316,
         "retorno": 0,
-        "volume_medio": 1411.111111111111,
-        "desvio_padrao": 0.055770135965541395
+        "volume_medio": 0.024390243902439025,
+        "desvio_padrao": 0.6371358605916474
     },
     {
         "ticker": "CTSA3.SA",
         "valor": 1.5099999904632568,
         "retorno": 0.18497499883174895,
-        "volume_medio": 1127.7777777777778,
-        "desvio_padrao": 0.03774542617339569
+        "volume_medio": 0.04838709677419355,
+        "desvio_padrao": 0.564416630359831
+    },
+    {
+        "ticker": "TEKA4.SA",
+        "valor": 34.0,
+        "retorno": 0,
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.757146133201306
     },
     {
         "ticker": "BMIN4.SA",
-        "valor": 17.979999542236328,
+        "valor": 18.0,
         "retorno": 1.322426857142857,
-        "volume_medio": 172.22222222222223,
-        "desvio_padrao": 0.017628828589783756
+        "volume_medio": 0.1,
+        "desvio_padrao": 0.5832469180944299
     },
     {
         "ticker": "CTKA3.SA",
         "valor": 21.450000762939453,
         "retorno": 0.8512166666666667,
-        "volume_medio": 16.666666666666668,
-        "desvio_padrao": 0.06525351749246674
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.5382079715769408
     },
     {
         "ticker": "BMKS3.SA",
-        "valor": 340.0,
+        "valor": 345.0400085449219,
         "retorno": 26.735680187499998,
-        "volume_medio": 34.388888888888886,
-        "desvio_padrao": 0.02280515212362968
+        "volume_medio": 0.203125,
+        "desvio_padrao": 0.3716575235834931
     },
     {
         "ticker": "CEDO4.SA",
         "valor": 21.59000015258789,
         "retorno": 0.5189686666666666,
-        "volume_medio": 472.22222222222223,
-        "desvio_padrao": 0.03382613301088051
+        "volume_medio": 0.03571428571428571,
+        "desvio_padrao": 0.487311023258277
     },
     {
         "ticker": "AHEB3.SA",
         "valor": 37.0,
         "retorno": 0,
-        "volume_medio": 77.77777777777777,
-        "desvio_padrao": 0.008182199639406708
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.47143543240090846
     },
     {
         "ticker": "CGAS3.SA",
         "valor": 122.19000244140625,
-        "retorno": 6.743638562499999,
-        "volume_medio": 116.66666666666667,
-        "desvio_padrao": 0.008481615444340045
+        "retorno": 6.7612024375,
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.4157225509074632
+    },
+    {
+        "ticker": "PEAB3.SA",
+        "valor": 43.099998474121094,
+        "retorno": 4.296860777777777,
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.42776076503494403
     },
     {
         "ticker": "DOHL4.SA",
-        "valor": 3.940000057220459,
+        "valor": 3.890000104904175,
         "retorno": 0.16716663636363638,
-        "volume_medio": 961.1111111111111,
-        "desvio_padrao": 0.02143704554401314
+        "volume_medio": 0.05714285714285714,
+        "desvio_padrao": 0.24019551485960816
     },
     {
         "ticker": "HBTS5.SA",
-        "valor": 29.0,
-        "retorno": 0.7926782857142857,
-        "volume_medio": 50.0,
-        "desvio_padrao": 0.02103618816058252
+        "valor": 28.0,
+        "retorno": 0.8437021428571428,
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.5536000809352076
     },
     {
         "ticker": "BAUH4.SA",
         "valor": 78.18000030517578,
         "retorno": 0.576572,
-        "volume_medio": 294.44444444444446,
-        "desvio_padrao": 0.0012180466697310675
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.06270011707252277
     },
     {
         "ticker": "BMEB3.SA",
         "valor": 32.0,
-        "retorno": 0.5642501428571429,
-        "volume_medio": 538.8888888888889,
-        "desvio_padrao": 0.029057446333171113
+        "retorno": 0.5642501428571428,
+        "volume_medio": 0.15789473684210525,
+        "desvio_padrao": 0.4767116997613145
     },
     {
         "ticker": "ENMT3.SA",
         "valor": 80.0,
         "retorno": 1.608574,
-        "volume_medio": 38.888888888888886,
-        "desvio_padrao": 0.03185049130969221
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.2443217411796717
     },
     {
         "ticker": "TKNO3.SA",
         "valor": 50.09000015258789,
-        "retorno": 4.470349428571428,
-        "volume_medio": 583.3333333333334,
-        "desvio_padrao": 0.1395218755189704
+        "retorno": 4.470349428571429,
+        "volume_medio": 0.0,
+        "desvio_padrao": 0.567153948081751
     }
 ]

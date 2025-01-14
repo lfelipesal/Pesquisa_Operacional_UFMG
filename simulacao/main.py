@@ -1,5 +1,6 @@
 from typing import List
 import gurobipy as gp
+import random
 from gurobipy import GRB
 
 from src.busca_dados_financeiros import busca_dados_financeiros
@@ -78,6 +79,7 @@ def gera_simulacao(
                     print(f"Nome Ativo: {ativos[i].ticker}")
                     print(f"Quantidade Adquirido: {w[i].X}")
                     investimento_total += C[i] + ativos[i].valor*w[i].X
+                    print(f"Nome Ativo: {ativos[i].ticker}  Quantidade Adquirido: {w[i].X} Valor: {ativos[i].valor:.2f}  Volatilidade: {ativos[i].desvio_padrao:.3f}")
             print(f"Total gasto investido: {investimento_total}")
             print(f"Lucro Máx Obtido: {model.ObjVal}")
             print(f'Rendimento Anual: {(model.ObjVal/total_investido)*100}%')
@@ -102,12 +104,12 @@ num_max_ativos = 8            # Número máximo de ativos
 B_max = total_investido*0.5   # Custo maximo gasto em transação
 volat_max =  0.07             # Definindo a volatilidade máxima dos ativos sendo 5%
 alocacao_min_por_ativo = 20   # Alocacao minima por ativo
-alocacao_max_por_ativo = 300  # Alocacao max por ativo
+alocacao_max_por_ativo = 800  # Alocacao max por ativo
 
 ativos.extend([
-    Ativo('Poupança', 50, 50*0.0617, 0.1, 0.0045),
-    Ativo('CDB', 50, 50*0.1088, 0.1, 0.0061),
-    Ativo('SELIC', 50, 50*0.1212, 0.1, 0.0061)    
+    Ativo('Poupança', 50, 50*0.0617, round(random.uniform(0.3, 0.8), 3), 0.0045),
+    Ativo('CDB', 50, 50*0.1088, round(random.uniform(0.3, 0.8), 3), 0.0061),
+    Ativo('SELIC', 50, 50*0.1212, round(random.uniform(0.3, 0.8), 3), 0.0061)    
 ])
 
 gera_simulacao(
