@@ -2,6 +2,7 @@ from typing import List
 import gurobipy as gp
 import random
 from gurobipy import GRB
+import pandas as pd
 
 from src.busca_dados_financeiros import busca_dados_financeiros
 from src.ativo import Ativo
@@ -63,7 +64,7 @@ def gera_simulacao(
     model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) <= num_max_ativos, name="Numero_Max_Ativos_Diferentes")                # 5- Número Máximo de Ativos por Investidor
     model.addConstr(gp.quicksum(C[i]*x[i] for i in range(num_ativos)) <= B_max, name="Custos_Max_Total_Transacao")                        # 6- Custos de Transação
     model.addConstr(gp.quicksum(desvio_padrao[i]*x[i] for i in range(num_ativos)) <= volat_max, name="Volatilidade_Max")                  # 7- Volatilidade Máxima dos investidores
-    model.addConstrs((w[i]*ativos[i].valor <= limite_liquidez[i] for i in range(num_ativos)), name= "Limite de liquidez" )
+    # model.addConstrs((w[i]*ativos[i].valor <= limite_liquidez[i] for i in range(num_ativos)), name= "Limite de liquidez" )
 
     try:
         # Defina e resolva o modelo
@@ -73,15 +74,22 @@ def gera_simulacao(
 
         # Verifique se o modelo foi otimizado com sucesso
         investimento_total = 0
+        values = []
         if model.status == gp.GRB.OPTIMAL:
             for i in range(len(ativos)):
                 if(x[i].X > 0 and w[i].X > 0):
-                    print(f"Nome Ativo: {ativos[i].ticker}  Quantidade Adquirido: {w[i].X} Valor: {ativos[i].valor:.2f}  Volatilidade: {ativos[i].desvio_padrao:.3f}")
+                    values.append({'Nome Ativo': ativos[i].ticker, 'Quantidade Adquirido': w[i].X, 'Valor': round(ativos[i].valor, 2), 'Dividendos': ativos[i].retorno })
+                    # print(f"Nome Ativo: {ativos[i].ticker}  Quantidade Adquirido: {w[i].X} Valor: {ativos[i].valor:.2f}  Volatilidade: {ativos[i].desvio_padrao:.3f}")
                     investimento_total += C[i] + ativos[i].valor*w[i].X
 
-            print(f"Total gasto investido: {investimento_total}")
-            print(f"Lucro Máx Obtido: {model.ObjVal}")
-            print(f'Rendimento Anual: {round((model.ObjVal/total_investido)*100, 2)}%')
+            values = sorted(values, key = lambda x: (x['Quantidade Adquirido'], x['Valor']), reverse=True)
+            df = pd.DataFrame().from_dict(values)
+            print('--------')
+            print(df)
+            print('--------')
+            print(f"Total Investido: R$ {round(investimento_total, 2)}")
+            print(f"Lucro Máx Obtido: R$ {round(model.ObjVal, 2)}")
+            print(f'Rendimento Anual: R$ {round((model.ObjVal/total_investido)*100, 2)}%')
         else:
             print("A otimização não foi bem-sucedida.")
 
@@ -101,13 +109,13 @@ taxa_operacional = 2          # Custo diário fixo
 num_min_ativos = 10            # Número min de ativos
 num_max_ativos = 20            # Número máximo de ativos
 B_max = total_investido*0.1   # Custo maximo gasto em transação
-volat_max =  0.25             # Definindo a volatilidade máxima dos ativos sendo 5%
+volat_max =  0.25             # Definindo a volatilidade máxima
 alocacao_min_por_ativo = 20   # Alocacao minima por ativo
 alocacao_max_por_ativo = 500  # Alocacao max por ativo
 
 ativos.extend([
     Ativo('Poupança', 50, 50*0.0617, round(random.uniform(0.3, 0.8), 3), 0.0045),
-    Ativo('CDB', 50, 50*0.1088, round(random.uniform(0.3, 0.8), 3), 0.0061),
+    Ativo('CDI', 50, 50*0.1088, round(random.uniform(0.3, 0.8), 3), 0.0061),
     Ativo('SELIC', 50, 50*0.1212, round(random.uniform(0.3, 0.8), 3), 0.0061)    
 ])
 
