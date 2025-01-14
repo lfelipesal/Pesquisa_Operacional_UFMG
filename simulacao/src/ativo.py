@@ -15,6 +15,7 @@ class Ativo:
 
     def __str__(self):
         return f"""
+            ticker={self.ticker},
             valor={self.valor},
             retorno={self.retorno},
             volume_medio={self.volume_medio},

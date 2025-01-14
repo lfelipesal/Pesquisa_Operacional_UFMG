@@ -41,7 +41,7 @@ def busca_dados_financeiros(ticker_ativos: List[str] = ACOES_BRASILEIRAS, salvar
             volume_normalizado = (dados_historicos['Volume'] - dados_historicos['Volume'].min())/(dados_historicos['Volume'].max() - dados_historicos['Volume'].min())
             volume_medio = volume_normalizado.median() 
             dados_historicos = acao.history(period="1y") 
-            desvio_padrao = dados_historicos['Close'].pct_change().dropna().std() * np.sqrt(252)
+            desvio_padrao = dados_historicos['Close'].pct_change().dropna().std()
             if np.isnan(desvio_padrao):
                 raise ValueError("Volatilidade inválida")
             if volume_medio == 0:
