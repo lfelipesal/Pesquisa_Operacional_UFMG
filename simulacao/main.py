@@ -29,7 +29,7 @@ def gera_simulacao(
         desvio_padrao.append(ativo.desvio_padrao)
         limite_liquidez.append(ativo.volume_medio)
         mu.append(ativo.retorno)
-        C.append( custo_fixo + (spread_fixo * ativo.valor) + taxa_operacional)
+        C.append(custo_fixo + (spread_fixo * ativo.valor) + taxa_operacional)
 
     # Função objetivo: Max Zk = sum(μ[i]*w[i,k]) - sum(C[i]*x[i,k]) para todos os k
     # μ[i]: Retorno esperado do ativo i.
@@ -55,7 +55,7 @@ def gera_simulacao(
         GRB.MAXIMIZE)
 
     # Restrições
-    model.addConstr(gp.quicksum(w[i]*ativos[i].valor for i in range(num_ativos)) <= total_investido, name="Total_Investido")  # 1- Orçamento Total Investido
+    model.addConstr(gp.quicksum(w[i]*ativos[i].valor + C[i]*x[i] for i in range(num_ativos)) <= total_investido, name="Total_Investido")  # 1- Orçamento Total Investido
     model.addConstrs((w[i] >= alocacao_min_por_ativo*x[i] for i in range(num_ativos)), name="Alocacao_Min_Ativo_Selecionado") # 2- Alocação minima do Ativo Se Selecionado
     model.addConstrs((w[i] <= alocacao_max_por_ativo*x[i]*limite_liquidez[i] for i in range(num_ativos)), name="Alocacao_Max_Ativo_Selecionado") # 3- Alocação máxima do Ativo Se Selecionado
     model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) >= num_min_ativos, name="Numero_Min_Ativos_Diferentes")      # 4- Número Mínimo de Investimentos
@@ -71,13 +71,16 @@ def gera_simulacao(
         model.optimize()
 
         # Verifique se o modelo foi otimizado com sucesso
+        investimento_total = 0
         if model.status == gp.GRB.OPTIMAL:
             for i in range(len(ativos)):
                 if(x[i].X > 0 and w[i].X > 0):
                     print(f"Nome Ativo: {ativos[i].ticker}")
                     print(f"Quantidade Adquirido: {w[i].X}")
+                    investimento_total += C[i] + ativos[i].valor*w[i].X
+            print(f"Total gasto investido: {investimento_total}")
             print(f"Lucro Máx Obtido: {model.ObjVal}")
-            print(f'Rendimento Anual: {model.ObjVal/total_investido}')
+            print(f'Rendimento Anual: {(model.ObjVal/total_investido)*100}%')
         else:
             print("A otimização não foi bem-sucedida.")
 
@@ -94,17 +97,17 @@ total_investido = 100000      # Total investido
 custo_fixo = 5                # Custo fixo por transação
 spread_fixo = 0.05            # Spread fixo de 0.5%
 taxa_operacional = 2          # Custo diário fixo
-num_max_ativos = 20           # Número máximo de ativos
-num_min_ativos = 10           # Número min de ativos
+num_min_ativos = 4            # Número min de ativos
+num_max_ativos = 8            # Número máximo de ativos
 B_max = total_investido*0.5   # Custo maximo gasto em transação
-volat_max =  0.20             # Definindo a volatilidade máxima dos ativos sendo 5%
+volat_max =  0.07             # Definindo a volatilidade máxima dos ativos sendo 5%
 alocacao_min_por_ativo = 20   # Alocacao minima por ativo
 alocacao_max_por_ativo = 300  # Alocacao max por ativo
 
 ativos.extend([
-    Ativo('Poupança', 50, 50*0.0617, 0.1, 0.045),
-    Ativo('CDB', 50, 50*0.1088, 0.1, 0.061),
-    Ativo('SELIC', 50, 50*0.1212, 0.1, 0.061)    
+    Ativo('Poupança', 50, 50*0.0617, 0.1, 0.0045),
+    Ativo('CDB', 50, 50*0.1088, 0.1, 0.0061),
+    Ativo('SELIC', 50, 50*0.1212, 0.1, 0.0061)    
 ])
 
 gera_simulacao(
