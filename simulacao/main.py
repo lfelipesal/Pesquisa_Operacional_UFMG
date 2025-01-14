@@ -1,4 +1,3 @@
-from random import randint
 from typing import List
 import gurobipy as gp
 from gurobipy import GRB
@@ -27,12 +26,10 @@ def gera_simulacao(
     C = []               # Definindo os custos das transações de cada ativo com base no seu ultimo valor sobre um spread fixo
 
     for ativo in ativos:
-        print(ativo)
         desvio_padrao.append(ativo.desvio_padrao)
         limite_liquidez.append(ativo.volume_medio)
         mu.append(ativo.retorno)
         C.append( custo_fixo + (spread_fixo * ativo.valor) + taxa_operacional)
-        #C.append(randint(0, 10))
 
     # Função objetivo: Max Zk = sum(μ[i]*w[i,k]) - sum(C[i]*x[i,k]) para todos os k
     # μ[i]: Retorno esperado do ativo i.
@@ -75,12 +72,12 @@ def gera_simulacao(
 
         # Verifique se o modelo foi otimizado com sucesso
         if model.status == gp.GRB.OPTIMAL:
-            #print(f"{len(model.getVars())}")
-            for v in model.getVars():
-                if v.index == (len(model.getVars())/2):
-                    break
-                if v.X != 0: 
-                    print(f"{ativos[v.index].nome_ativo} {v.X:g}")
+            for i in range(len(ativos)):
+                if(x[i].X > 0 and w[i].X > 0):
+                    print(f"Nome Ativo: {ativos[i].ticker}")
+                    print(f"Quantidade Adquirido: {w[i].X}")
+            print(f"Lucro Máx Obtido: {model.ObjVal}")
+            print(f'Rendimento Anual: {model.ObjVal/total_investido}')
         else:
             print("A otimização não foi bem-sucedida.")
 
@@ -92,24 +89,23 @@ def gera_simulacao(
 
 
 ativos: List[Ativo] = busca_dados_financeiros()
-total_investido = 20000       # Total investido
-custo_fixo = 5               # Custo fixo por transação
-spread_fixo = 0.005              # Spread fixo de 0.5%
-taxa_operacional = 2         # Custo diário fixo
-num_max_ativos = 40           # Número máximo de ativos
-num_min_ativos = 10           # Número min de ativos
-B_max = 163                   # Custo maximo gasto em transação
-volat_max =  0.2            # Definindo a volatilidade máxima dos ativos sendo 5%
-alocacao_min_por_ativo = 1   # Alocacao minima por ativo
-alocacao_max_por_ativo = 500 # Alocacao max por ativo
 
-# ativos = [
-#     Ativo(20, 5, 0.1, 0.01),
-#     Ativo(20, 1, 0.1, 0.01),
-#     Ativo(30, 2, 0.1, 0.01),
-#     Ativo(40, 2, 0.1, 0.01),
-#     Ativo(50, 4, 0.1, 0.01),
-# ]
+total_investido = 100000      # Total investido
+custo_fixo = 5                # Custo fixo por transação
+spread_fixo = 0.05            # Spread fixo de 0.5%
+taxa_operacional = 2          # Custo diário fixo
+num_max_ativos = 20           # Número máximo de ativos
+num_min_ativos = 10           # Número min de ativos
+B_max = total_investido*0.5   # Custo maximo gasto em transação
+volat_max =  0.20             # Definindo a volatilidade máxima dos ativos sendo 5%
+alocacao_min_por_ativo = 20   # Alocacao minima por ativo
+alocacao_max_por_ativo = 300  # Alocacao max por ativo
+
+ativos.extend([
+    Ativo('Poupança', 50, 50*0.0617, 0.1, 0.045),
+    Ativo('CDB', 50, 50*0.1088, 0.1, 0.061),
+    Ativo('SELIC', 50, 50*0.1212, 0.1, 0.061)    
+])
 
 gera_simulacao(
     ativos,
