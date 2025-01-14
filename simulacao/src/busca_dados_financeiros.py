@@ -16,6 +16,7 @@ ACOES_BRASILEIRAS = [
 
 def busca_dados_financeiros(ticker_ativos: List[str] = ACOES_BRASILEIRAS, salvar_cache = True, le_cache = True) -> List[Ativo]:
     ativos = []
+
     if le_cache:
         try:
             with open(Ativo.PATH_FILE_CACHE) as cache_file:
@@ -35,7 +36,9 @@ def busca_dados_financeiros(ticker_ativos: List[str] = ACOES_BRASILEIRAS, salvar
             ultimo_valor_ativo = acao.history(period="1d")['Close'].iloc[0]
             media_dividendo_anual = SELIC * ultimo_valor_ativo if media_dividendo_anual > 0.22*ultimo_valor_ativo else media_dividendo_anual
             dados_historicos = acao.history(period="1mo")  # Busca os últimos 30 dias
-            volume_medio = dados_historicos['Volume'].mean() if not dados_historicos.empty else 0
+            # Normalizando o volume médio para valores entre 0 e 1
+            volume_normalizado = (dados_historicos['Volume'] - dados_historicos['Volume'].min())/(dados_historicos['Volume'].max() - dados_historicos['Volume'].min()) if not dados_historicos.empty else 0
+            volume_medio = volume_normalizado.median() 
             desvio_padrao = dados_historicos['Close'].pct_change().dropna().std() if not dados_historicos.empty else 0
             ativos.append(Ativo(ticker_ativo, ultimo_valor_ativo, media_dividendo_anual, volume_medio, desvio_padrao))
         except Exception as e:

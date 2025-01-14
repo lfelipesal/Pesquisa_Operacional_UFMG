@@ -1,4 +1,5 @@
 class Ativo:
+
     PATH_FILE_CACHE = 'simulacao/cache/ativo_cache.json'
 
     def __init__(self, ticker: str, valor: float, retorno: float, volume_medio: float, desvio_padrao: float):

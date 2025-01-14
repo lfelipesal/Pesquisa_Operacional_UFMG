@@ -27,7 +27,7 @@ def gera_simulacao(
 
     for ativo in ativos:
         desvio_padrao.append(ativo.desvio_padrao)
-        limite_liquidez.append(0.01 * ativo.volume_medio)
+        limite_liquidez.append(ativo.volume_medio)
         mu.append(ativo.retorno)
         C.append( custo_fixo + (spread_fixo * ativo.valor) + taxa_operacional)
 
@@ -57,11 +57,12 @@ def gera_simulacao(
     # Restrições
     model.addConstr(gp.quicksum(w[i]*ativos[i].valor for i in range(num_ativos)) <= total_investido, name="Total_Investido")  # 1- Orçamento Total Investido
     model.addConstrs((w[i] >= alocacao_min_por_ativo*x[i] for i in range(num_ativos)), name="Alocacao_Min_Ativo_Selecionado") # 2- Alocação minima do Ativo Se Selecionado
-    model.addConstrs((w[i] <= alocacao_max_por_ativo*x[i] for i in range(num_ativos)), name="Alocacao_Max_Ativo_Selecionado") # 3- Alocação máxima do Ativo Se Selecionado
+    model.addConstrs((w[i] <= alocacao_max_por_ativo*x[i]*limite_liquidez[i] for i in range(num_ativos)), name="Alocacao_Max_Ativo_Selecionado") # 3- Alocação máxima do Ativo Se Selecionado
     model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) >= num_min_ativos, name="Numero_Min_Ativos_Diferentes")      # 4- Número Mínimo de Investimentos
     model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) <= num_max_ativos, name="Numero_Max_Ativos_Diferentes")      # 5- Número Máximo de Ativos por Investidor
     model.addConstr(gp.quicksum(C[i]*x[i] for i in range(num_ativos)) <= B_max, name="Custos_Max_Total_Transacao")            # 6- Custos de Transação
     model.addConstr(gp.quicksum(desvio_padrao[i]*x[i] for i in range(num_ativos)) <= volat_max, name="Volatilidade_Max")      # 7- Volatilidade Máxima dos investidores
+    #model.addConstrs((w[i]*ativos[i].valor <= limite_liquidez[i] for i in range(num_ativos)), name= "Limite de liquidez" )
 
     try:
         # Defina e resolva o modelo
@@ -88,6 +89,7 @@ def gera_simulacao(
 
 
 ativos: List[Ativo] = busca_dados_financeiros()
+
 total_investido = 100000      # Total investido
 custo_fixo = 5                # Custo fixo por transação
 spread_fixo = 0.05            # Spread fixo de 0.5%
