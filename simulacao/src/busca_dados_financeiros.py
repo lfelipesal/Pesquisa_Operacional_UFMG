@@ -1,6 +1,7 @@
 from collections import defaultdict
 from typing import List
 from src.ativo import Ativo
+import numpy as np
 import yfinance as yf
 import pandas as pd
 import json
@@ -37,9 +38,14 @@ def busca_dados_financeiros(ticker_ativos: List[str] = ACOES_BRASILEIRAS, salvar
             media_dividendo_anual = SELIC * ultimo_valor_ativo if media_dividendo_anual > 0.22*ultimo_valor_ativo else media_dividendo_anual
             dados_historicos = acao.history(period="1mo")  # Busca os últimos 30 dias
             # Normalizando o volume médio para valores entre 0 e 1
-            volume_normalizado = (dados_historicos['Volume'] - dados_historicos['Volume'].min())/(dados_historicos['Volume'].max() - dados_historicos['Volume'].min()) if not dados_historicos.empty else 0
+            volume_normalizado = (dados_historicos['Volume'] - dados_historicos['Volume'].min())/(dados_historicos['Volume'].max() - dados_historicos['Volume'].min())
             volume_medio = volume_normalizado.median() 
-            desvio_padrao = dados_historicos['Close'].pct_change().dropna().std() if not dados_historicos.empty else 0
+            dados_historicos = acao.history(period="1y") 
+            desvio_padrao = dados_historicos['Close'].pct_change().dropna().std() * np.sqrt(252)
+            if np.isnan(desvio_padrao):
+                raise ValueError("Volatilidade inválida")
+            if volume_medio == 0:
+                raise ValueError("Volume inválido")
             ativos.append(Ativo(ticker_ativo, ultimo_valor_ativo, media_dividendo_anual, volume_medio, desvio_padrao))
         except Exception as e:
             print('Erro ao buscar dados do ativo')
@@ -51,7 +57,7 @@ def busca_dados_financeiros(ticker_ativos: List[str] = ACOES_BRASILEIRAS, salvar
             for ativo in ativos
         ]
         with open(Ativo.PATH_FILE_CACHE, 'w') as fout:
-            json.dump(ativos_dict , fout)
+            json.dump(ativos_dict , fout, indent=4)
 
     return ativos
 
