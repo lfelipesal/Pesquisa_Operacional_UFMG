@@ -29,7 +29,7 @@ def gera_simulacao(
     for ativo in ativos:
         print(ativo)
         desvio_padrao.append(ativo.desvio_padrao)
-        limite_liquidez.append(0.01 * ativo.volume_medio)
+        limite_liquidez.append(ativo.volume_medio)
         mu.append(ativo.retorno)
         C.append( custo_fixo + (spread_fixo * ativo.valor) + taxa_operacional)
         #C.append(randint(0, 10))
@@ -60,11 +60,12 @@ def gera_simulacao(
     # Restrições
     model.addConstr(gp.quicksum(w[i]*ativos[i].valor for i in range(num_ativos)) <= total_investido, name="Total_Investido")  # 1- Orçamento Total Investido
     model.addConstrs((w[i] >= alocacao_min_por_ativo*x[i] for i in range(num_ativos)), name="Alocacao_Min_Ativo_Selecionado") # 2- Alocação minima do Ativo Se Selecionado
-    model.addConstrs((w[i] <= alocacao_max_por_ativo*x[i] for i in range(num_ativos)), name="Alocacao_Max_Ativo_Selecionado") # 3- Alocação máxima do Ativo Se Selecionado
+    model.addConstrs((w[i] <= alocacao_max_por_ativo*x[i]*limite_liquidez[i] for i in range(num_ativos)), name="Alocacao_Max_Ativo_Selecionado") # 3- Alocação máxima do Ativo Se Selecionado
     model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) >= num_min_ativos, name="Numero_Min_Ativos_Diferentes")      # 4- Número Mínimo de Investimentos
     model.addConstr(gp.quicksum(x[i] for i in range(num_ativos)) <= num_max_ativos, name="Numero_Max_Ativos_Diferentes")      # 5- Número Máximo de Ativos por Investidor
     model.addConstr(gp.quicksum(C[i]*x[i] for i in range(num_ativos)) <= B_max, name="Custos_Max_Total_Transacao")            # 6- Custos de Transação
     model.addConstr(gp.quicksum(desvio_padrao[i]*x[i] for i in range(num_ativos)) <= volat_max, name="Volatilidade_Max")      # 7- Volatilidade Máxima dos investidores
+    #model.addConstrs((w[i]*ativos[i].valor <= limite_liquidez[i] for i in range(num_ativos)), name= "Limite de liquidez" )
 
     try:
         # Defina e resolva o modelo
@@ -74,9 +75,12 @@ def gera_simulacao(
 
         # Verifique se o modelo foi otimizado com sucesso
         if model.status == gp.GRB.OPTIMAL:
-            #return model.getVars()
+            #print(f"{len(model.getVars())}")
             for v in model.getVars():
-                print(f"{v.VarName} {v.X:g}")
+                if v.index == (len(model.getVars())/2):
+                    break
+                if v.X != 0: 
+                    print(f"{ativos[v.index].nome_ativo} {v.X:g}")
         else:
             print("A otimização não foi bem-sucedida.")
 
@@ -88,16 +92,16 @@ def gera_simulacao(
 
 
 ativos: List[Ativo] = busca_dados_financeiros()
-total_investido = 200000       # Total investido
+total_investido = 20000       # Total investido
 custo_fixo = 5               # Custo fixo por transação
-spread_fixo = 0.05              # Spread fixo de 0.5%
+spread_fixo = 0.005              # Spread fixo de 0.5%
 taxa_operacional = 2         # Custo diário fixo
 num_max_ativos = 40           # Número máximo de ativos
-num_min_ativos = 20           # Número min de ativos
-B_max = 150                   # Custo maximo gasto em transação
-volat_max =  0.5            # Definindo a volatilidade máxima dos ativos sendo 5%
-alocacao_min_por_ativo = 80   # Alocacao minima por ativo
-alocacao_max_por_ativo = 180 # Alocacao max por ativo
+num_min_ativos = 10           # Número min de ativos
+B_max = 163                   # Custo maximo gasto em transação
+volat_max =  0.2            # Definindo a volatilidade máxima dos ativos sendo 5%
+alocacao_min_por_ativo = 1   # Alocacao minima por ativo
+alocacao_max_por_ativo = 500 # Alocacao max por ativo
 
 # ativos = [
 #     Ativo(20, 5, 0.1, 0.01),
