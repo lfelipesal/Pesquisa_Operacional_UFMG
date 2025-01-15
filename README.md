@@ -40,12 +40,12 @@ Este trabalho também contribuirá para nosso aprendizado em pesquisa operaciona
 - Planejamento
 - [x] Escopo detalhado elaborado
 - [x] Correções identificadas e analisadas
-- [ ] Ferramentas de desenvolvimento instaladas
+- [x] Ferramentas de desenvolvimento instaladas
 - Execução
-- [ ] Desenvolvimento do algoritmo de solução
-- [ ] Teste dos limites das ferramentas escolhidas
+- [x] Desenvolvimento do algoritmo de solução
+- [x] Teste dos limites das ferramentas escolhidas
 - Encerramento
-- [ ] Resultados finais relatados e documentados
+- [x] Resultados finais relatados e documentados
 - [ ] Seminário final de apresentação finalizado
 - [ ] Entrega formal do trabalho realizada
 
