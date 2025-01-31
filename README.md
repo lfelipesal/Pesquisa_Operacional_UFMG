@@ -46,8 +46,8 @@ Este trabalho também contribuirá para nosso aprendizado em pesquisa operaciona
 - [x] Teste dos limites das ferramentas escolhidas
 - Encerramento
 - [x] Resultados finais relatados e documentados
-- [ ] Seminário final de apresentação finalizado
-- [ ] Entrega formal do trabalho realizada
+- [x] Seminário final de apresentação finalizado
+- [x] Entrega formal do trabalho realizada
 
 ## ✔️ Técnicas e tecnologias utilizadas  
 
